@@ -1,0 +1,18 @@
+# Large source PDFs — keep editorial markdown and scripts, ignore PDFs
+08_Sources_and_Editing/downloads/**/*.pdf
+08_Sources_and_Editing/downloads/**/*.rar
+08_Sources_and_Editing/downloads/chinese_scholarship/
+08_Sources_and_Editing/downloads/english_scholarship/
+08_Sources_and_Editing/downloads/contemporary_accounts/
+08_Sources_and_Editing/downloads/primary_texts/
+08_Sources_and_Editing/downloads/diplomatic/
+08_Sources_and_Editing/downloads/gazetteers/
+08_Sources_and_Editing/downloads/north_china_herald/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.swp
