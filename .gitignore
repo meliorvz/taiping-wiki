@@ -16,3 +16,10 @@ Thumbs.db
 # Temp files
 *.tmp
 *.swp
+
+# App dependencies and build output
+node_modules/
+dist/
+.vinext/
+.wrangler/
+app/content.generated.ts
