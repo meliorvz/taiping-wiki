@@ -17,7 +17,7 @@ function resolveMarkdownHref(href: string, sourcePath: string) {
   return `/wiki/${resolved.join("/")}`;
 }
 
-function inline(text: string, sourcePath: string): InlinePart[] {
+function inline(text: string, sourcePath: string, keyToNum: Map<string, number>): InlinePart[] {
   const parts: InlinePart[] = [];
   const pattern = /(`[^`]+`|\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\([^)]+\)|\[\^[^\]]+\])/g;
   let lastIndex = 0;
@@ -29,11 +29,23 @@ function inline(text: string, sourcePath: string): InlinePart[] {
     if (token.startsWith("`")) {
       parts.push(<code key={key++}>{token.slice(1, -1)}</code>);
     } else if (token.startsWith("**")) {
-      parts.push(<strong key={key++}>{inline(token.slice(2, -2), sourcePath)}</strong>);
+      parts.push(<strong key={key++}>{inline(token.slice(2, -2), sourcePath, keyToNum)}</strong>);
     } else if (token.startsWith("*")) {
-      parts.push(<em key={key++}>{inline(token.slice(1, -1), sourcePath)}</em>);
+      parts.push(<em key={key++}>{inline(token.slice(1, -1), sourcePath, keyToNum)}</em>);
     } else if (token.startsWith("[^")) {
-      parts.push(<sup key={key++}>{token.slice(2, -1)}</sup>);
+      const refKey = token.slice(2, -1);
+      const num = keyToNum.get(refKey);
+      if (num !== undefined) {
+        parts.push(
+          <sup key={key++} className="scroll-mt-28" id={`fnref-${refKey}`}>
+            <a href={`#fn-${refKey}`} className="footnote-ref">
+              [{num}]
+            </a>
+          </sup>
+        );
+      } else {
+        parts.push(<sup key={key++}>{token.slice(2, -1)}</sup>);
+      }
     } else {
       const link = token.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
       if (link) {
@@ -51,7 +63,7 @@ function inline(text: string, sourcePath: string): InlinePart[] {
   return parts;
 }
 
-function tableBlock(block: string, index: number, sourcePath: string) {
+function tableBlock(block: string, index: number, sourcePath: string, keyToNum: Map<string, number>) {
   const rows = block
     .split("\n")
     .filter((row) => row.trim().startsWith("|"))
@@ -69,12 +81,12 @@ function tableBlock(block: string, index: number, sourcePath: string) {
     <div className="article-table reveal" key={index}>
       <table>
         <thead>
-          <tr>{head.map((cell) => <th key={cell}>{inline(cell, sourcePath)}</th>)}</tr>
+          <tr>{head.map((cell) => <th key={cell}>{inline(cell, sourcePath, keyToNum)}</th>)}</tr>
         </thead>
         <tbody>
           {body.map((row, rowIndex) => (
             <tr key={rowIndex}>
-              {row.map((cell, cellIndex) => <td key={cellIndex}>{inline(cell, sourcePath)}</td>)}
+              {row.map((cell, cellIndex) => <td key={cellIndex}>{inline(cell, sourcePath, keyToNum)}</td>)}
             </tr>
           ))}
         </tbody>
@@ -83,12 +95,12 @@ function tableBlock(block: string, index: number, sourcePath: string) {
   );
 }
 
-function calloutBlock(block: string, index: number, sourcePath: string) {
+function calloutBlock(block: string, index: number, sourcePath: string, keyToNum: Map<string, number>) {
   const match = block.match(/^(Note|Source|Important|Warning|Current state|Full changelog|80\/20|Pasikartojantis process):?\s*(.*)$/i);
   if (!match) {
     return (
       <aside className="article-callout reveal" key={index}>
-        {inline(block, sourcePath)}
+        {inline(block, sourcePath, keyToNum)}
       </aside>
     );
   }
@@ -118,7 +130,7 @@ function calloutBlock(block: string, index: number, sourcePath: string) {
         <span>{title}</span>
       </div>
       <div className="callout-content" style={{ fontSize: "16px", lineHeight: "1.7", opacity: 0.95 }}>
-        {inline(rest || block, sourcePath)}
+        {inline(rest || block, sourcePath, keyToNum)}
       </div>
     </aside>
   );
@@ -131,8 +143,43 @@ export function MarkdownArticle({
   markdown: string;
   sourcePath: string;
 }) {
-  const blocks = markdown
-    .replace(/\r\n/g, "\n")
+  const lines = markdown.replace(/\r\n/g, "\n").split("\n");
+  const footnoteDefs: Record<string, string> = {};
+  const cleanedLines: string[] = [];
+  let currentFootnoteKey: string | null = null;
+
+  for (let line of lines) {
+    const match = line.match(/^[ \t]*\[\^([^\]]+)\]:[ \t]*(.*)/);
+    if (match) {
+      currentFootnoteKey = match[1];
+      footnoteDefs[currentFootnoteKey] = match[2];
+    } else if (currentFootnoteKey && (line.startsWith("    ") || line.startsWith("\t"))) {
+      footnoteDefs[currentFootnoteKey] += "\n" + line.trim();
+    } else if (currentFootnoteKey && line.trim() === "") {
+      currentFootnoteKey = null;
+      cleanedLines.push(line);
+    } else {
+      currentFootnoteKey = null;
+      cleanedLines.push(line);
+    }
+  }
+
+  const cleanedMarkdown = cleanedLines.join("\n");
+
+  const orderedKeys: string[] = [];
+  const keyToNum = new Map<string, number>();
+  
+  const inlinePattern = /\[\^([^\]]+)\]/g;
+  let match;
+  while ((match = inlinePattern.exec(cleanedMarkdown)) !== null) {
+    const refKey = match[1];
+    if (footnoteDefs[refKey] && !keyToNum.has(refKey)) {
+      orderedKeys.push(refKey);
+      keyToNum.set(refKey, orderedKeys.length);
+    }
+  }
+
+  const blocks = cleanedMarkdown
     .split(/\n{2,}/)
     .map((block) => block.trim())
     .filter(Boolean);
@@ -148,7 +195,7 @@ export function MarkdownArticle({
           );
         }
 
-        const table = tableBlock(block, index, sourcePath);
+        const table = tableBlock(block, index, sourcePath, keyToNum);
         if (table) return table;
 
         const heading = block.match(/^(#{1,6})\s+(.+)$/);
@@ -160,7 +207,7 @@ export function MarkdownArticle({
           const Tag = `h${Math.min(level, 4)}` as keyof JSX.IntrinsicElements;
           return (
             <Tag className="reveal scroll-mt-28" id={id} key={index}>
-              {inline(text, sourcePath)}
+              {inline(text, sourcePath, keyToNum)}
             </Tag>
           );
         }
@@ -171,7 +218,7 @@ export function MarkdownArticle({
           const List = ordered ? "ol" : "ul";
           return (
             <List className="reveal" key={index}>
-              {items.map((item, itemIndex) => <li key={itemIndex}>{inline(item, sourcePath)}</li>)}
+              {items.map((item, itemIndex) => <li key={itemIndex}>{inline(item, sourcePath, keyToNum)}</li>)}
             </List>
           );
         }
@@ -179,21 +226,44 @@ export function MarkdownArticle({
         if (block.startsWith(">")) {
           return (
             <blockquote className="reveal" key={index}>
-              {inline(block.replace(/^>\s?/gm, ""), sourcePath)}
+              {inline(block.replace(/^>\s?/gm, ""), sourcePath, keyToNum)}
             </blockquote>
           );
         }
 
         if (/^(Note|Source|Important|Warning|Current state|Full changelog|80\/20|Pasikartojantis process)/i.test(block)) {
-          return calloutBlock(block, index, sourcePath);
+          return calloutBlock(block, index, sourcePath, keyToNum);
         }
 
         return (
           <p className="reveal" key={index}>
-            {inline(block.replace(/\n/g, " "), sourcePath)}
+            {inline(block.replace(/\n/g, " "), sourcePath, keyToNum)}
           </p>
         );
       })}
+
+      {orderedKeys.length > 0 && (
+        <div className="article-footnotes reveal">
+          <h2>Notes</h2>
+          <div className="footnote-list">
+            {orderedKeys.map((refKey) => {
+              const num = keyToNum.get(refKey);
+              const content = footnoteDefs[refKey] || "";
+              return (
+                <div key={refKey} id={`fn-${refKey}`} className="footnote-item">
+                  <span className="footnote-number">[{num}]</span>
+                  <span className="footnote-text">
+                    {inline(content, sourcePath, keyToNum)}
+                    <a href={`#fnref-${refKey}`} className="footnote-backlink" aria-label="Back to content">
+                      ↩
+                    </a>
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -812,30 +812,46 @@ a {
   box-shadow: 0 8px 24px var(--shadow-color);
 }
 
-/* Theme Switcher Styles */
-.theme-btn {
-  border: 1px solid var(--border-line);
+/* Theme Slider Toggle Switch */
+.theme-slider-toggle {
+  position: relative;
+  width: 46px;
+  height: 24px;
+  border-radius: 12px;
   background: var(--bg-paper);
+  border: 1px solid var(--border-line);
   cursor: pointer;
-  font-size: 11px;
-  font-weight: 700;
-  padding: 8px 14px;
-  border-radius: 20px;
-  color: var(--fg-primary);
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+  padding: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
-  gap: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  outline: none;
-  box-shadow: 0 2px 8px var(--shadow-color);
+  box-shadow: inset 0 2px 4px var(--shadow-color), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.theme-btn:hover {
+.theme-slider-toggle:hover {
   border-color: var(--accent-color);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px var(--shadow-color);
+  transform: translateY(-1px);
+}
+
+.theme-slider-thumb {
+  position: absolute;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--fg-muted);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 4px var(--shadow-color);
+}
+
+.theme-slider-toggle.dark {
+  background: var(--border-line);
+}
+
+.theme-slider-toggle.dark .theme-slider-thumb {
+  left: 25px;
+  background: var(--accent-color);
 }
 
 /* Adjacent Navigation Footer Links */
@@ -1105,10 +1121,6 @@ a {
     width: 38px;
   }
 
-  .brand-hanzi {
-    display: none;
-  }
-
   .hero-copy h1 {
     font-size: 34px;
   }
@@ -1117,4 +1129,122 @@ a {
     padding: 20px 14px;
   }
 }
+
+/* Linked Footnotes Styling */
+.footnote-ref {
+  text-decoration: none !important;
+  color: var(--accent-color);
+  font-weight: 700;
+  padding: 0 2px;
+  transition: opacity 0.2s ease;
+}
+
+.footnote-ref:hover {
+  opacity: 0.8;
+}
+
+.article-footnotes {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border-line);
+}
+
+.article-footnotes h2 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--fg-primary);
+  margin-bottom: 20px;
+}
+
+.footnote-list {
+  display: grid;
+  gap: 12px;
+}
+
+.footnote-item {
+  display: flex;
+  gap: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--fg-muted);
+  scroll-margin-top: 100px; /* offset for header when navigating to footnotes */
+}
+
+.footnote-number {
+  font-weight: 700;
+  color: var(--accent-color);
+  flex-shrink: 0;
+}
+
+.footnote-text {
+  min-width: 0;
+}
+
+.footnote-backlink {
+  color: var(--accent-color);
+  text-decoration: none !important;
+  font-weight: bold;
+  margin-left: 6px;
+  transition: opacity 0.2s ease;
+  display: inline-block;
+}
+
+.footnote-backlink:hover {
+  opacity: 0.8;
+}
+
+/* Image Figures & Container Styling */
+.article-image-figure {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-paper);
+  border: 1px solid var(--border-line);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px var(--shadow-color);
+  transition: border-color 0.4s ease, background-color 0.4s ease;
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.article-image:hover {
+  transform: scale(1.015);
+}
+
+.article-image-caption {
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--fg-muted);
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  margin-top: 4px;
+}
+
+/* Inline images styling */
+.article-image-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  margin: 12px;
+  padding: 8px;
+  background: var(--bg-paper);
+  border: 1px solid var(--border-line);
+  border-radius: 8px;
+  box-shadow: 0 4px 15px var(--shadow-color);
+}
+
 

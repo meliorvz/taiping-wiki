@@ -167,7 +167,7 @@ Key passages from Taiping primary sources, with original Chinese, literal transl
 
 **Register**: Li Xiucheng's prose is notably plain and direct, with minimal classical allusion. He writes as a military commander recounting events, not as a scholar composing a literary work. The chronological narrative style (one event leading to the next) contrasts with the thematic organisation of most Chinese historical writing. Zeng Guofan's editorial deletions from the text are concentrated in passages describing the Tianjing Incident and the Suzhou Massacre.
 
-**Source note**: 罗尔纲 critical edition (1995), LibGen ID 3006687. Li Xiucheng wrote the confession in a cell during the few weeks between his capture (22 July 1864) and execution (7 August 1864). The text was heavily edited by Zeng Guofan before being forwarded to Beijing. Luo Ergang's critical edition identifies probable deletions and restores the text where possible.
+**Source note**: 罗尔纲 critical edition (1995). Li Xiucheng wrote the confession in a cell during the few weeks between his capture (22 July 1864) and execution (7 August 1864). The text was heavily edited by Zeng Guofan before being forwarded to Beijing. Luo Ergang's critical edition identifies probable deletions and restores the text where possible.
 
 ---
 

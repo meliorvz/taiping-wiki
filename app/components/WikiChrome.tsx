@@ -186,37 +186,25 @@ export function WikiChrome({
       <header className="topbar">
         <Link className="brand" href="/">
           <span className="brand-mark" aria-hidden="true">
-            <span>太平</span>
-            <span>天國</span>
-          </span>
-          <span className="brand-text">
-            <span className="brand-hanzi">太平天國</span>
-            <span className="brand-name">Taiping Wiki</span>
-          </span>
+          <span>太平</span>
+          <span>天國</span>
+        </span>
+        <span className="brand-text">
+          <span className="brand-name">Taiping Wiki</span>
+        </span>
         </Link>
         <nav aria-label="Primary">
           <Link href="/wiki/00_Start_Here/reading_path">Reading Path</Link>
           <Link href="/wiki/07_Reference/chronology">Chronology</Link>
           <Link href="/wiki/08_Sources_and_Editing/bibliography">Sources</Link>
           
-          {/* Theme Switcher Button */}
+          {/* Theme Slider Toggle */}
           <button
-            className="theme-btn"
+            className={`theme-slider-toggle ${isCurrentlyDark ? "dark" : ""}`}
             onClick={toggleTheme}
-            title={isCurrentlyDark ? "Switch to Parchment (Light)" : "Switch to Imperial (Dark)"}
-            aria-label="Toggle theme"
+            aria-label="Toggle light/dark mode"
           >
-            {isCurrentlyDark ? (
-              <>
-                <span>📜</span>
-                <span>Parchment</span>
-              </>
-            ) : (
-              <>
-                <span>🏮</span>
-                <span>Imperial</span>
-              </>
-            )}
+            <span className="theme-slider-thumb" />
           </button>
         </nav>
       </header>
@@ -240,8 +228,7 @@ export function WikiChrome({
           <h1>{title}</h1>
           <p>{excerpt || "A reader-facing archive of the Taiping Rebellion, its state-building experiment, war, sources, and contested memory."}</p>
           <div className="hero-meta">
-            <span><b aria-hidden="true">Read </b>{readingMinutes} min read</span>
-            <span><b aria-hidden="true">File </b>{sourcePath}</span>
+            <span>{readingMinutes} min</span>
           </div>
         </div>
       </section>
@@ -309,9 +296,8 @@ export function WikiChrome({
         <aside className="right-rail" aria-label="Table of contents">
           <div className="toc-card">
             <div className="toc-title">
-              <span aria-hidden="true">TOC </span>
-              <span>Contents</span>
-            </div>
+            <span>Contents</span>
+          </div>
             {headings.length ? (
               headings.slice(0, 18).map((heading, index) => {
                 const slug = slugifyHeading(heading.text);
@@ -329,10 +315,6 @@ export function WikiChrome({
             ) : (
               <p>No chapter headings on this page.</p>
             )}
-          </div>
-          <div className="stat-panel">
-            <span aria-hidden="true">Pages </span>
-            <span>{wikiSections.reduce((count, group) => count + group.pages.length, 0)} pages</span>
           </div>
         </aside>
       </div>

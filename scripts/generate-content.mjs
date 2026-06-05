@@ -12,7 +12,6 @@ const includeRoots = [
   "06_Aftermath_and_Memory",
   "07_Reference",
   "08_Sources_and_Editing",
-  "09_Backlog",
 ];
 
 const sectionLabels = {
@@ -26,8 +25,17 @@ const sectionLabels = {
   "06_Aftermath_and_Memory": "Aftermath & Memory",
   "07_Reference": "Reference",
   "08_Sources_and_Editing": "Sources & Editing",
-  "09_Backlog": "Backlog",
 };
+
+const excludeFiles = [
+  "README.md",
+  "08_Sources_and_Editing/article_template.md",
+  "08_Sources_and_Editing/translation_notes_template.md",
+  "08_Sources_and_Editing/new_source_inventory.md",
+  "08_Sources_and_Editing/source_extraction_notes.md",
+  "08_Sources_and_Editing/claim_map.md",
+  "08_Sources_and_Editing/source_processing_log.md",
+];
 
 const order = ["index.md", "README.md"];
 
@@ -44,9 +52,11 @@ function walk(dir) {
 
 const files = [
   path.join(root, "index.md"),
-  path.join(root, "README.md"),
   ...includeRoots.flatMap((dir) => walk(path.join(root, dir))),
-];
+].filter((file) => {
+  const relative = path.relative(root, file);
+  return !excludeFiles.includes(relative);
+});
 
 function slugFromRelative(relative) {
   if (relative === "index.md") return "";
@@ -63,12 +73,20 @@ function excerptFromMarkdown(markdown) {
   const paragraph = withoutTitle
     .split(/\n{2,}/)
     .find((block) => /^[A-Za-z0-9*_\[]/.test(block.trim()));
-  return (paragraph ?? "")
+  if (!paragraph) return "";
+  const cleaned = paragraph
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
     .replace(/[*_`#>-]/g, "")
     .replace(/\s+/g, " ")
-    .slice(0, 220)
     .trim();
+  if (cleaned.length <= 220) return cleaned;
+  
+  let truncated = cleaned.slice(0, 220);
+  const lastSpace = truncated.lastIndexOf(" ");
+  if (lastSpace > 0) {
+    truncated = truncated.slice(0, lastSpace);
+  }
+  return truncated.trim() + "...";
 }
 
 function headingsFromMarkdown(markdown) {
