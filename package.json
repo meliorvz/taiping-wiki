@@ -10,6 +10,8 @@
     "dev": "vinext dev",
     "prebuild": "node scripts/generate-content.mjs",
     "build": "vinext build",
+    "deploy:cloudflare": "wrangler deploy --domain taiping.vzfz.me",
+    "deploy:cloudflare:dry-run": "wrangler deploy --domain taiping.vzfz.me --dry-run",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"

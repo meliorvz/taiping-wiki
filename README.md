@@ -57,3 +57,76 @@ index.md                     — Wiki home / table of contents
 README.md                    — This file
 quality_check.txt            — Quality status tracker
 ```
+
+## Website deployment
+
+The public site is a Cloudflare Worker served at:
+
+- Production: `https://taiping.vzfz.me`
+- Worker name: `taiping-wiki`
+- GitHub repo: `https://github.com/meliorvz/taiping-wiki`
+
+The source Markdown remains the source of truth. `npm run build` generates
+`app/content.generated.ts` and then builds the Worker output into `dist/`.
+
+### Local commands
+
+```bash
+npm ci
+npm run build
+npm run deploy:cloudflare:dry-run
+npm run deploy:cloudflare
+```
+
+`wrangler.jsonc` is the committed Cloudflare deploy config. It points Wrangler at
+the generated Worker bundle:
+
+- Worker entry: `dist/server/index.js`
+- Static assets: `dist/client`
+- Custom domain: supplied by the deploy command, `taiping.vzfz.me`
+
+### GitHub Actions deployment
+
+`.github/workflows/deploy-cloudflare.yml` builds on every pull request and push.
+Pushes to `main` deploy to Cloudflare when these GitHub settings are present:
+
+- Repository variable: `CLOUDFLARE_ACCOUNT_ID`
+- Repository secret: `CLOUDFLARE_API_TOKEN`
+
+Create the Cloudflare token in the Cloudflare dashboard with permissions for the
+`Victor@melior.group's Account` account and `vzfz.me` zone:
+
+- Account: Workers Scripts: Edit
+- Account: Workers Routes: Edit
+- Account: Account Settings: Read
+- Zone: Zone: Read
+- Zone: SSL and Certificates: Edit
+
+Then store it in GitHub:
+
+```bash
+gh variable set CLOUDFLARE_ACCOUNT_ID --body '5f859aa789a9938e8e5605f796e747c4' --repo meliorvz/taiping-wiki
+gh secret set CLOUDFLARE_API_TOKEN --repo meliorvz/taiping-wiki
+```
+
+### Cloudflare dashboard Git linking
+
+You can also link the GitHub repo directly in Cloudflare Workers Builds instead
+of using GitHub Actions.
+
+1. Open Cloudflare Dashboard.
+2. Go to `Workers & Pages`.
+3. Select the existing `taiping-wiki` Worker.
+4. Open `Settings` > `Builds`.
+5. Select `Connect` and choose `meliorvz/taiping-wiki`.
+6. Use these build settings:
+   - Production branch: `main`
+   - Root directory: `/`
+   - Build command: `npm run build`
+   - Deploy command: `npm run deploy:cloudflare`
+   - Node version: `22.13.0` or newer
+7. Save and deploy.
+
+Cloudflare's Workers Builds documentation notes that the connected Worker name
+must match the Wrangler config name in the repo root; this repo's
+`wrangler.jsonc` uses `name: "taiping-wiki"` for that reason.
