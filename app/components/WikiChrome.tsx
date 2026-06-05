@@ -46,8 +46,14 @@ export function WikiChrome({
     <main className="site-shell">
       <header className="topbar">
         <Link className="brand" href="/">
-          <span className="brand-mark">太</span>
-          <span>Taiping Wiki</span>
+          <span className="brand-mark" aria-hidden="true">
+            <span>太平</span>
+            <span>天國</span>
+          </span>
+          <span className="brand-text">
+            <span className="brand-hanzi">太平天國</span>
+            <span className="brand-name">Taiping Wiki</span>
+          </span>
         </Link>
         <nav aria-label="Primary">
           <Link href="/wiki/00_Start_Here/reading_path">Reading Path</Link>
