@@ -282,7 +282,7 @@ export function WikiChrome({
             aria-label={isZh ? "Switch to English" : "切换至中文"}
           >
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            <span>{isZh ? "EN" : "中文"}</span>
+            <span>{isZh ? "中文" : "EN"}</span>
           </button>
           
           {/* Theme Slider Toggle */}
