@@ -118,4 +118,3 @@ The war killed or displaced millions, ruined cities and villages, changed Qing p
 
 - [Source Guide](08_Sources_and_Editing/source_guide.md)
 - [Bibliography](08_Sources_and_Editing/bibliography.md)
-- [Editorial Standards](08_Sources_and_Editing/editorial_standards.md)

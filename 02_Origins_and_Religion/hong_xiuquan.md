@@ -1,5 +1,7 @@
 # Hong Xiuquan / 洪秀全
 
+![Portrait of Hong Xiuquan as the Heavenly King, painted in traditional Chinese style](/images/hong_xiuquan.png)
+
 Hong Xiuquan, 洪秀全 (*Hóng Xiùquán*), was the founder and Heavenly King, 天王 (*Tiānwáng*), of the Taiping Heavenly Kingdom. He was born on 1 January 1814 in Fuyuan village, 福源水, Hua county, 花县, Guangdong, into a Hakka family of modest means. He died on 1 June 1864 in Tianjing, 天京, as Qing forces closed in on the capital. His followers treated him as the second son of Shangdi, younger brother of Jesus, and the chosen ruler of the Heavenly Kingdom. His enemies treated him as a rebel chief and false prophet.[^britannica-hong][^michael-i]
 
 ## Early life and failed examinations

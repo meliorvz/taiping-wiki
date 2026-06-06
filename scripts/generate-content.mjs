@@ -35,9 +35,10 @@ const excludeFiles = [
   "08_Sources_and_Editing/source_extraction_notes.md",
   "08_Sources_and_Editing/claim_map.md",
   "08_Sources_and_Editing/source_processing_log.md",
+  "08_Sources_and_Editing/editorial_standards.md",
 ];
 
-const order = ["index.md", "README.md"];
+const order = ["index.md"];
 
 function walk(dir) {
   const entries = readdirSync(dir, { withFileTypes: true }).sort((a, b) =>

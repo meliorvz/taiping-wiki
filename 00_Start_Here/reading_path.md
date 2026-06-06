@@ -30,4 +30,3 @@ Use this route if you want to check evidence:
 
 - [Source Guide](../08_Sources_and_Editing/source_guide.md)
 - [Bibliography](../08_Sources_and_Editing/bibliography.md)
-- [Editorial Standards](../08_Sources_and_Editing/editorial_standards.md)

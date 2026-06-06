@@ -1,5 +1,7 @@
 # Tianjing / 天京
 
+![Traditional Chinese ink painting of Tianjing (Nanjing) on the Yangzi River under Taiping rule](/images/tianjing_city.png)
+
 Tianjing, 天京 (*Tiānjīng*, "Heavenly Capital"), was the Taiping name for Nanjing, 南京, after its capture on 19 March 1853. The city served as the capital of the Heavenly Kingdom for eleven years — the residence of Hong Xiuquan, the centre of court politics, the seat of the Sacred Treasury and book-printing system, and the final target of the Qing siege that destroyed the Taiping state.[^michael-i][^luo-ergang]
 
 ## Capture and renaming

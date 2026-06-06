@@ -1,5 +1,7 @@
 # Jintian Uprising / 金田起义
 
+![Scroll painting of the Jintian Uprising in traditional Chinese Shanshui style](/images/jintian_uprising.png)
+
 The Jintian Uprising (金田起义, Jīntián qǐyì) on 11 January 1851 marked the Taiping movement's transition from an organized religious society into an armed rebellion against the Qing dynasty. At Jintian village (金田村, Jīntián cūn) in Guiping County, Guangxi, more than 10,000 members of the God Worshipping Society (拜上帝会, Bài Shàngdì Huì) assembled, raised the banner of revolt, and fought their first battle against imperial troops. The uprising was simultaneously a religious convocation, a military mobilization, and a declaration of sacred war — the three threads of Taiping identity woven together from the beginning.[^michael-vol1][^luo]
 
 ## Background: The God Worshipping Society in Guangxi

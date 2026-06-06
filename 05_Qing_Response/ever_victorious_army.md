@@ -1,5 +1,7 @@
 # Ever Victorious Army / 常胜军
 
+![Traditional Chinese painting of the Ever-Victorious Army drilling in the 1860s](/images/ever_victorious.png)
+
 The Ever Victorious Army, 常胜军 (Chángshèng jūn), was a Qing auxiliary force that operated in the Shanghai and lower Yangzi theater from 1860 to 1864. It is best known for its foreign officers — Frederick Townsend Ward, an American adventurer, and Charles Gordon, a British army engineer — but the force was always Chinese in its rank and file, Chinese-funded, and subordinate to Qing provincial authority. It was tactically important in the Shanghai region but should not be credited with deciding the outcome of the Taiping war. Its real historical significance lies in what it demonstrated: that Chinese soldiers, drilled by foreign officers and armed with Western weapons, could fight with an effectiveness that matched or exceeded traditional Qing forces.[^wilson][^michael]
 
 ## Ward: adventurer and mercenary

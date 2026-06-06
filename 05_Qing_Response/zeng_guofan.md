@@ -1,5 +1,7 @@
 # Zeng Guofan / 曾国藩
 
+![Portrait of the Qing scholar-general Zeng Guofan, painted in traditional Chinese Gongbi style](/images/zeng_guofan.png)
+
 Zeng Guofan, 曾国藩 (Zēng Guófān, 1811–1872), was the Qing scholar-official who built the Xiang Army (湘军, Xiāngjūn), the force most responsible for the final defeat of the Taiping capital at Nanjing in July 1864. He was not a hereditary military man but a holder of the highest civil examination degree (进士, jìnshì) who, when the regular Banner and Green Standard armies collapsed, created a new kind of military organization rooted in provincial society, gentry networks, and personal authority. His methods saved the Qing dynasty and simultaneously transformed the distribution of military power within it, setting patterns that would outlast the empire itself.[^kuhn][^luo]
 
 ## Birth and scholarly career

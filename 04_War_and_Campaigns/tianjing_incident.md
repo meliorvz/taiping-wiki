@@ -1,5 +1,7 @@
 # Tianjing Incident / 天京事变
 
+![Traditional Chinese painting depicting the palace crisis of the Tianjing Incident of 1856](/images/tianjing_incident.png)
+
 The Tianjing Incident (天京事变, Tiānjīng shìbiàn) of 1856 was the Taiping state's worst internal catastrophe: a palace coup, a massacre, and a leadership purge that destroyed the movement's founding coalition and fatally weakened its central government. In a sequence that spanned roughly three months — from the first days of September to late November 1856 — the Eastern King Yang Xiuqing was murdered, the Northern King Wei Changhui slaughtered thousands of perceived rivals, Wei himself was executed, and the Assistant King Shi Dakai fled the capital. The movement that had reached its military zenith by breaking the Qing siege camps around Tianjing in June 1856 was, by December, a hollowed-out court whose surviving commanders would never again fully trust the central leadership.[^michael-vol1]
 
 ## The prelude: Yang Xiuqing's accumulation of power

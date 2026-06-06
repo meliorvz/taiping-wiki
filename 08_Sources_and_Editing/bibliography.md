@@ -85,9 +85,9 @@
 
 - 广西通志, 湖南通志, 湖北通志, 江苏通志, 浙江通志, 四川通志. Try LoGaRT, Harvard-Yenching collection, CNKI/读秀.
 
-## Sources processed on 5 June 2026
+## Source Acquisition Status
 
-The following sources were inventoried, verified, and documented during the 5 June 2026 editorial infrastructure session:
+The following table summarizes the acquisition and verification status of major primary and secondary sources referenced in this wiki:
 
 | Action | Count | Sources |
 |--------|-------|---------|
@@ -132,7 +132,7 @@ The following sources were inventoried, verified, and documented during the 5 Ju
 [^lindley-ia]: Augustus F. Lindley, *Ti-ping Tien-kwoh*, 2 vols., 1866. Vol 1: https://archive.org/details/tipingtienkwohhi01lind, Vol 2: https://archive.org/details/tipingtienkwohhi02lind.
 [^lindley-gutenberg]: Augustus F. Lindley, *Ti-ping Tien-kwoh*, Project Gutenberg. Vol 1: https://www.gutenberg.org/ebooks/39180, Vol 2: https://www.gutenberg.org/ebooks/39735.
 [^north-china-herald]: *North-China Herald* collection, Internet Archive, https://archive.org/details/northchinaherald.
-[^nch-search]: North-China Herald acquired but keyword indexing not yet completed. See source_database.json "north-china-herald-search".
+[^nch-search]: North-China Herald acquired but keyword indexing not yet completed.
 [^callery]: J. M. Callery & M. Yvan, *History of the Insurrection in China*, 1853, https://archive.org/details/historyofinsurre00callrich.
 [^scarth]: John Scarth, *Twelve Years in China*, 1860, https://archive.org/details/twelveyearsinchi00scarrich.
 [^hake]: A. E. Hake, *Events in the Taeping Rebellion*, 1891, https://archive.org/details/eventsintaeping00hakegoog.
@@ -154,7 +154,7 @@ The following sources were inventoried, verified, and documented during the 5 Ju
 [^luo-github]: 罗尔纲, 《太平天国史》 (全4册). Publicly archived.
 [^luo-zlib]: 罗尔纲, 《太平天国史》. Publicly archived.
 [^luo-baidu]: 罗尔纲全集. Publicly archived.
-[^luo-shigang]: 罗尔纲, 《太平天国史纲》, 商务印书馆, 1937. See source_database.json "luo-er-gang-taiping-shigang".
+[^luo-shigang]: 罗尔纲, 《太平天国史纲》, 商务印书馆, 1937.
 [^luo-quanji]: 罗尔纲全集 (22卷). Publicly archived.
 [^mao-vol1]: 茅家琦, 《太平天国通史》上册. Publicly archived.
 [^mao-vol2]: 茅家琦, 《太平天国通史》中册. Publicly archived.

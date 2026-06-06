@@ -1,5 +1,7 @@
 # Taiping Heavenly Kingdom / 太平天国
 
+![Traditional Chinese still life painting of the Taiping Heavenly Kingdom's golden imperial seal and tracts](/images/heavenly_seal.png)
+
 The Taiping Heavenly Kingdom, 太平天国 (*Tàipíng Tiānguó*), was the state created by Hong Xiuquan and his followers during the rebellion (1851–1864). It had a sacred monarch, royal titles, printed books, a capital at Tianjing, rules for worship and conduct, military hierarchy, and ambitious plans for land, family, education, law, and government. It was simultaneously a religious kingdom, a rebel regime, and a government at war — the largest alternative state erected on Chinese territory between the Ming-Qing transition and the 1911 revolution.[^michael-i][^reilly]
 
 ## Founding
