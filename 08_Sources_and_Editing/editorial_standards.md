@@ -13,16 +13,16 @@ Use Markdown footnotes. Do not place raw citation commentary in the middle of se
 Example:
 
 ```markdown
-The Taiping captured Nanjing in March 1853 and renamed it Tianjing.[^britannica-taiping]
+The Taiping captured Nanjing in March 1853 and renamed it Tianjing.[^michael1]
 
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," https://www.britannica.com/event/Taiping-Rebellion.
+[^michael1]: Franz Michael, *The Taiping Rebellion: History and Documents*, Vol. I: History (Seattle: University of Washington Press, 1966).
 ```
 
 ### Footnote discipline
 
 1. Every factual claim in reader-facing prose must be traceable to an identified source. If no source supports a claim, flag it with `[citation needed]` or move it to a draft/notes page.
 2. Use the most direct source available. If Michael Vols. II-III provides a translated document, cite Michael, not a secondary summary of the translation.
-3. Do not cite Britannica or other tertiary sources for contested or specialist claims. They are acceptable for uncontested dates, names, and basic geography.
+3. Do not cite encyclopedias or other tertiary sources. Every claim must be traceable to a primary or specialist secondary source.
 4. When a source is disputed or has known bias (e.g. Lindley's pro-Taiping partisanship, Qing memorials' tendency to inflate enemy numbers), note the limitation in the footnote.
 5. Chinese-language sources are cited in the original characters with pinyin romanisation. Provide an English translation of the title in the first footnote citation. Subsequent citations may use the English title alone.
 6. Source access information (URL, LibGen ID, Internet Archive identifier) should be included in the first footnote citation for each source.

@@ -42,7 +42,7 @@ In August–September 1851, Taiping forces broke through Qing lines at Guancun (
 
 ## The Yong'an court
 
-At Yong'an, between September 1851 and April 1852, the Taiping formalized the kingship system. Yang Xiuqing became Eastern King (东王, Dōngwáng), Xiao Chaogui Western King (西王, Xīwáng), Feng Yunshan Southern King (南王, Nánwáng), Wei Changhui (韦昌辉) Northern King (北王, Běiwáng), and Shi Dakai (石达开) Assistant King (翼王, Yìwáng). All were to obey the Eastern King's authority in military and administrative matters, subject to the Heavenly King's final sanction. The formal subordination of the four subordinate kings to Yang Xiuqing — who also claimed to speak for God the Heavenly Father — created a dual structure of sacred and secular authority that contained the seeds of the crisis that would destroy the leadership five years later.[^luo][^mao]
+At Yong'an, between September 1851 and April 1852, the Taiping formalized the kingship system — naming Hong Xiuquan Heavenly King and his five subordinates as Eastern, Western, Southern, Northern, and Assistant Kings. The full court formation, including each king's role and the institutional precedents set there, is described in [Guangxi Campaigns and the Yong'an Period](/wiki/04_War_and_Campaigns/guangxi_campaigns_1851_1852). The formal subordination of the four subordinate kings to Yang Xiuqing — who also claimed to speak for God the Heavenly Father — created a dual structure of sacred and secular authority that contained the seeds of the crisis that would destroy the leadership five years later.[^luo][^mao]
 
 ## The siege and breakout from Yong'an
 

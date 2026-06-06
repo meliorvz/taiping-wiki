@@ -32,13 +32,15 @@ The contrast between the court's luxury and the population's suffering became ac
 
 Qing forces under Zeng Guofan, 曾国藩, and his brother Zeng Guoquan, 曾国荃, tightened the siege of Tianjing from 1862. The city's walls, formidable against traditional assault, were subjected to systematic siege warfare — trenches, earthworks, mining, and bombardment. Taiping attempts to break the siege — including Li Xiucheng's efforts to relieve the city — failed.[^michael-i]
 
-Hong Xiuquan died on 1 June 1864. The cause of death is disputed: Britannica and most Western sources say suicide by poison; some Chinese sources suggest illness. He was buried inside the palace, and his body was later exhumed, identified, and burned by Qing forces.[^luo-ergang]
+Hong Xiuquan died on 1 June 1864. The cause of death is disputed: most Western sources say suicide by poison; some Chinese sources suggest illness. He was buried inside the palace, and his body was later exhumed, identified, and burned by Qing forces.[^luo-ergang]
 
 The city fell on 19 July 1864. Qing troops breached the walls near the Taiping Gate, 太平门. The sack that followed was devastating. Tens of thousands of Taiping defenders and civilians were killed. Li Xiucheng, captured while trying to escort Hong's young son — the infant Heavenly King, 幼天王 (*Yòu Tiānwáng*) — out of the city, was executed after writing his confession. Hong's son was captured shortly afterward and executed. The city burned. Zeng Guofan ordered the systematic destruction of Taiping buildings and records.[^meyer-fong][^michael-i]
 
 ## Tianjing after 1864
 
 The physical destruction of Tianjing was followed by Qing reconstruction. Temples were rebuilt, the examination system restored, and the city reintegrated into the imperial order. But the human and material cost of the sack persisted. Meyer-Fong's study of the city's post-war landscape describes years of rubble, mass graves, haunted memory, and the slow, contested process of rebuilding both buildings and lives.[^meyer-fong]
+
+Tianjing was both the proof and the tragedy of the Taiping experiment. For eleven years it served as the stage on which the Heavenly Kingdom enacted its most radical social and religious programmes — sex segregation, temple destruction, public worship, and sacred kingship. Its fall in July 1864 marked not only the military end of the Taiping state but the erasure of a would-be sacred order from the Chinese landscape.
 
 ## Related pages
 
@@ -57,8 +59,6 @@ The physical destruction of Tianjing was followed by Qing reconstruction. Temple
 
 ## Notes
 
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
 [^acs-jintian]: Academy of Chinese Studies, "The Jintian Uprising and Founding of the Heavenly Kingdom of Great Peace," accessed 4 June 2026, https://chiculture.org.hk/en/photo-story/1186.
 [^tianmu]: 《天朝田畝制度》, Wikisource access text, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.
 [^zizheng]: 洪仁玕, 《資政新篇》, Wikisource access text, https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%94%BF%E6%96%B0%E7%AF%87.
@@ -75,6 +75,5 @@ The physical destruction of Tianjing was followed by Qing reconstruction. Temple
 [^michael-iii]: Franz Michael, ed., *The Taiping Rebellion: History and Documents*, Vol. III: *Documents and Comments* (Seattle: University of Washington Press, 1971).
 [^luo-ergang]: Luo Ergang 罗尔纲, *Taiping Tianguo shi* 太平天国史 (Beijing: Zhonghua shuju, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
-[^ward]: Encyclopaedia Britannica, "Frederick Townsend Ward," accessed 4 June 2026, https://www.britannica.com/biography/Frederick-Townsend-Ward.
 [^wilson]: Andrew Wilson, *The Ever-Victorious Army: A History of the Chinese Campaign under Lt. Col. C. G. Gordon*, Blackwood, 1868, Internet Archive, https://archive.org/details/evervictoriousa00wilsgoog.
 [^north-china-herald]: Internet Archive collection page, *North-China Herald*, https://archive.org/details/northchinaherald.

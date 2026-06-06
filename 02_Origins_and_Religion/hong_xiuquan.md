@@ -2,13 +2,13 @@
 
 ![Portrait of Hong Xiuquan as the Heavenly King, painted in traditional Chinese style](/images/hong_xiuquan.png)
 
-Hong Xiuquan, 洪秀全 (*Hóng Xiùquán*), was the founder and Heavenly King, 天王 (*Tiānwáng*), of the Taiping Heavenly Kingdom. He was born on 1 January 1814 in Fuyuan village, 福源水, Hua county, 花县, Guangdong, into a Hakka family of modest means. He died on 1 June 1864 in Tianjing, 天京, as Qing forces closed in on the capital. His followers treated him as the second son of Shangdi, younger brother of Jesus, and the chosen ruler of the Heavenly Kingdom. His enemies treated him as a rebel chief and false prophet.[^britannica-hong][^michael-i]
+Hong Xiuquan, 洪秀全 (*Hóng Xiùquán*), was the founder and Heavenly King, 天王 (*Tiānwáng*), of the Taiping Heavenly Kingdom. He was born on 1 January 1814 in Fuyuan village, 福源水, Hua county, 花县, Guangdong, into a Hakka family of modest means. He died on 1 June 1864 in Tianjing, 天京, as Qing forces closed in on the capital. His followers treated him as the second son of Shangdi, younger brother of Jesus, and the chosen ruler of the Heavenly Kingdom. His enemies treated him as a rebel chief and false prophet.[^michael-i]
 
 ## Early life and failed examinations
 
 Hong's family invested in his education. Success in the civil service examinations could bring office and honour to the family and community. A village relative who passed the examinations could protect the community against official exactions and enhance local status. Hong was a bright student and began sitting the examinations at the county level.[^michael-i]
 
-He failed repeatedly. The civil service examination system was intensely competitive — tens of thousands of candidates competed for a few hundred degrees — and Hong, for all his ability, could not pass. The crucial failure came in 1837, when Hong travelled to Guangzhou, 广州, for the provincial examinations. After failing again, he suffered a severe illness — fever, hallucinations, visions — that lasted approximately forty days. In his visions, which he later described in Taiping texts, he was carried to heaven, where he met an aged man on a throne who gave him a sword and a seal, and a middle-aged man who instructed and assisted him. The aged man lamented that the world was full of demons and commanded Hong to destroy them.[^michael-i][^luo-ergang]
+He passed the county-level exam in 1827, at age thirteen, but failed the provincial *juren* examination three times — in 1836, 1837, and 1843. The civil service examination system was intensely competitive — tens of thousands of candidates competed for a few hundred degrees — and Hong, for all his ability, could not advance past the county level. The crucial failure came in 1837, when Hong travelled to Guangzhou, 广州, for the provincial examinations. After failing again, he suffered a severe illness — fever, hallucinations, visions — that lasted approximately forty days. In his visions, which he later described in Taiping texts, he was carried to heaven, where he met an aged man on a throne who gave him a sword and a seal, and a middle-aged man who instructed and assisted him. The aged man lamented that the world was full of demons and commanded Hong to destroy them.[^michael-i][^luo-ergang]
 
 Hong returned home, recovered, and resumed a normal life. He taught in village schools and continued to sit the examinations — without success. The visions receded into memory. What transformed them into a political programme was a Christian tract he had received in Guangzhou.
 
@@ -42,7 +42,7 @@ By the early 1860s, Qing armies under Zeng Guofan and his subordinates had surro
 
 In his final years, Hong produced a stream of religious proclamations — visions, poems, and edicts — that promised heavenly armies would descend to destroy the Qing. As the city starved, Hong reportedly ordered his subjects to eat "heavenly dew" (manna) and distributed grass and roots as sacred food. These reports, preserved in Qing sources and Li Xiucheng's confession, may be exaggerated, but they capture the paradox of Hong's final months: a sacred king sustained by visions as his earthly kingdom collapsed.
 
-Hong died on 1 June 1864. The cause of death remains disputed. Britannica and most Western accounts say he committed suicide by poison. Some Chinese sources suggest he died of illness exacerbated by starvation. His body was buried inside the palace grounds. When Qing forces captured Tianjing on 19 July 1864, they exhumed his body, identified it, and burned it — an act of ritual annihilation intended to erase the Heavenly King from existence.[^michael-i][^meyer-fong]
+Hong died on 1 June 1864. The cause of death remains disputed. Most Western accounts say he committed suicide by poison. Some Chinese sources suggest he died of illness exacerbated by starvation. His body was buried inside the palace grounds. When Qing forces captured Tianjing on 19 July 1864, they exhumed his body, identified it, and burned it — an act of ritual annihilation intended to erase the Heavenly King from existence.[^michael-i][^meyer-fong]
 
 ## How to understand Hong
 
@@ -67,8 +67,7 @@ Hong Xiuquan was a religious founder, a king, a failed examination candidate, a 
 
 ## Notes
 
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
+
 [^acs-jintian]: Academy of Chinese Studies, "The Jintian Uprising and Founding of the Heavenly Kingdom of Great Peace," accessed 4 June 2026, https://chiculture.org.hk/en/photo-story/1186.
 [^tianmu]: 《天朝田畝制度》, Wikisource access text, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.
 [^zizheng]: 洪仁玕, 《資政新篇》, Wikisource access text, https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%94%BF%E6%96%B0%E7%AF%87.
@@ -85,6 +84,5 @@ Hong Xiuquan was a religious founder, a king, a failed examination candidate, a 
 [^michael-iii]: Franz Michael, ed., *The Taiping Rebellion: History and Documents*, Vol. III: *Documents and Comments* (Seattle: University of Washington Press, 1971).
 [^luo-ergang]: Luo Ergang 罗尔纲, *Taiping Tianguo shi* 太平天国史 (Beijing: Zhonghua shuju, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
-[^ward]: Encyclopaedia Britannica, "Frederick Townsend Ward," accessed 4 June 2026, https://www.britannica.com/biography/Frederick-Townsend-Ward.
 [^wilson]: Andrew Wilson, *The Ever-Victorious Army: A History of the Chinese Campaign under Lt. Col. C. G. Gordon*, Blackwood, 1868, Internet Archive, https://archive.org/details/evervictoriousa00wilsgoog.
 [^north-china-herald]: Internet Archive collection page, *North-China Herald*, https://archive.org/details/northchinaherald.

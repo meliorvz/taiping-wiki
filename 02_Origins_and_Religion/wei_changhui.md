@@ -30,7 +30,7 @@ In the summer of 1856, the Taiping leadership crisis came to a head. Yang Xiuqin
 
 The exact nature of Hong's order to Wei is disputed. The standard account — reconstructed from fragmentary Taiping and Qing sources — holds that Hong summoned Wei Changhui back to Tianjing from the field and ordered him to eliminate Yang. Whether Hong specified the scope of the killing is unknown. What is known is the result: Wei carried out the assignment with a ferocity that exceeded anything Hong may have intended.[^michael-i][^luo-ergang]
 
-Wei and his forces entered Yang's palace at night in early September 1856 and killed the Eastern King. Then the killing expanded. Wei systematically murdered Yang's family, his staff, his guards, and — over the following weeks — thousands of people identified as Yang loyalists. The purge emptied the Taiping bureaucracy and officer corps of much of its experienced personnel. Estimates of the death toll range from 10,000 to 40,000, though precise figures are impossible to verify. The scale of the killing transformed what might have been a targeted elimination of a rival into a massacre that crippled the Taiping state's capacity for coherent governance.[^michael-i][^luo-ergang][^mao]
+Wei and his forces entered Yang's palace at night in early September 1856 and killed the Eastern King. Then the killing expanded. Wei systematically murdered Yang's family, his staff, his guards, and — over the following weeks — thousands of people identified as Yang loyalists. The purge emptied the Taiping bureaucracy and officer corps of much of its experienced personnel. The killing unfolded in phases. The initial massacre (Phase 1), in which Wei's forces executed Yang, his family, and his immediate circle, accounted for perhaps 2,000–6,000 deaths per Michael. The subsequent purges, executions, and revenge killings (Phase 2) — directed against Yang's subordinates and anyone suspected of Eastern King loyalties — expanded the toll dramatically, with total estimates ranging from 10,000 to 40,000, though precise figures are impossible to verify.[^michael-i][^luo-ergang][^mao] The scale of the killing transformed what might have been a targeted elimination of a rival into a massacre that crippled the Taiping state's capacity for coherent governance.
 
 Shi Dakai, the Assistant King, returned to Tianjing from the Wuhan front to mediate the crisis. According to most accounts, he reproached Wei for the scale of the killing. Wei, now operating with the initiative of a man who had already crossed every line, reportedly prepared to kill Shi as well. Shi escaped the capital — but Wei killed Shi's family and staff in his absence. Shi then gathered his forces in Anhui and threatened Tianjing, demanding Wei's death.[^luo-ergang][^michael-i]
 
@@ -76,8 +76,6 @@ A related debate concerns the severity of Wei's purge relative to the norms of C
 
 ## Notes
 
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
 [^acs-jintian]: Academy of Chinese Studies, "The Jintian Uprising and Founding of the Heavenly Kingdom of Great Peace," accessed 4 June 2026, https://chiculture.org.hk/en/photo-story/1186.
 [^tianmu]: 《天朝田畝制度》, Wikisource access text, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.
 [^zizheng]: 洪仁玕, 《資政新篇》, Wikisource access text, https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%94%BF%E6%96%B0%E7%AF%87.
@@ -95,6 +93,5 @@ A related debate concerns the severity of Wei's purge relative to the norms of C
 [^luo-ergang]: Luo Ergang 罗尔纲, *Taiping Tianguo shi* 太平天国史 (Beijing: Zhonghua shuju, 1991).
 [^mao]: Mao Jiaqi 茅家琦, ed., *Taiping tianguo tongshi* 太平天国通史, 3 vols. (Nanjing: Nanjing daxue chubanshe, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
-[^ward]: Encyclopaedia Britannica, "Frederick Townsend Ward," accessed 4 June 2026, https://www.britannica.com/biography/Frederick-Townsend-Ward.
 [^wilson]: Andrew Wilson, *The Ever-Victorious Army: A History of the Chinese Campaign under Lt. Col. C. G. Gordon*, Blackwood, 1868, Internet Archive, https://archive.org/details/evervictoriousa00wilsgoog.
 [^north-china-herald]: Internet Archive collection page, *North-China Herald*, https://archive.org/details/northchinaherald.

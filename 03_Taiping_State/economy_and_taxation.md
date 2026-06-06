@@ -10,7 +10,7 @@ After the Jintian Uprising of January 1851, the Sacred Treasury became an instit
 
 In Tianjing, the Sacred Treasury became the central financial institution of the Taiping state. It received tax revenues, tributes from occupied counties, confiscated property, and the produce of state-operated workshops. It distributed rations to the court, officials, soldiers, and the urban population. The Treasury issued its own accounting system, using Taiping currency and inventory registers. Lindley described the system as "communistic" in organisation but noted that it functioned primarily as a military commissariat.[^lindley][^luo-ergang]
 
-The system broke down under pressure. As the territory under Taiping control shrank, revenue declined. As Qing sieges tightened, supply lines failed. By the 1860s, the Sacred Treasury could no longer meet the demands of the state and army. Shortages drove officials to extortion, soldiers to plunder, and civilians to flight. The institution that had symbolised Taiping egalitarianism became a locus of corruption and scarcity.[^luo-ergang]
+The system broke down under pressure. As the territory under Taiping control shrank, revenue declined. As Qing sieges tightened, supply lines failed: in Anqing, by August 1861, the Taiping garrison had exhausted its food to the point that soldiers were eating horses, dogs, and, in some cases, the bodies of the dead. By the 1860s, the Sacred Treasury could no longer meet the demands of the state and army. Shortages drove officials to extortion, soldiers to plunder, and civilians to flight. The institution that had symbolised Taiping egalitarianism became a locus of corruption and scarcity.[^luo-ergang]
 
 ## Taxation in theory
 
@@ -37,7 +37,7 @@ The Taiping did not — and could not — abolish trade. Despite the Land System
 
 The salt trade was especially important. The lower Yangzi was a major salt-producing region, and salt was a state monopoly under both the Qing and the Taiping. Taiping control of Yangzhou, 扬州, and other salt-producing centres gave the regime access to a valuable commodity. Salt revenues funded military operations and court expenses. The Taiping issued salt certificates and licensed salt merchants.[^luo-ergang]
 
-Yangzi River commerce — grain, tea, silk, cotton, and manufactured goods — continued through the war years, though at reduced volume and under constant disruption. Foreign merchants in Shanghai continued to trade with Taiping-held areas when it was profitable and when Qing blockades permitted. Tea from Anhui and Jiangxi, silk from Zhejiang, and cotton from Jiangsu moved through Taiping territory to Shanghai and abroad.[^michael-iii]
+Yangzi River commerce — grain, tea, silk, cotton, and manufactured goods — continued through the war years, though at reduced volume and under constant disruption. Suzhou, Li Xiucheng's regional headquarters after 1860, provided silk revenues that sustained Taiping operations in the eastern theatre until the city fell to Li Hongzhang in December 1863. Foreign merchants in Shanghai continued to trade with Taiping-held areas when it was profitable and when Qing blockades permitted. Tea from Anhui and Jiangxi, silk from Zhejiang, and cotton from Jiangsu moved through Taiping territory to Shanghai and abroad.[^michael-iii]
 
 The Taiping also attempted to regulate markets. The Land System envisioned that the 25-household unit would supply its own needs, but larger markets operated in Taiping cities. Market fees and transit duties became significant revenue sources. Hong Rengan's 资政新篇 (*Zīzhèng xīnpiān*) went further, proposing state encouragement of commerce, mining, banking, and transport — a vision far removed from the Land System's agrarian communalism.[^zizheng]
 
@@ -73,24 +73,11 @@ The evidence supports a middle position. The Taiping did attempt fiscal innovati
 
 ## Notes
 
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
-[^acs-jintian]: Academy of Chinese Studies, "The Jintian Uprising and Founding of the Heavenly Kingdom of Great Peace," accessed 4 June 2026, https://chiculture.org.hk/en/photo-story/1186.
 [^tianmu]: 《天朝田畝制度》, Wikisource access text, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.
 [^zizheng]: 洪仁玕, 《資政新篇》, Wikisource access text, https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%94%BF%E6%96%B0%E7%AF%87.
-[^yuandao]: 洪秀全, 《原道救世歌》, Wikisource access text, https://zh.wikisource.org/wiki/%E5%8E%9F%E9%81%93%E6%95%91%E4%B8%96%E6%AD%8C.
-[^yingjie]: Library of Congress, "Ying jie gui zhen / 英傑歸真 / Heroes Return to the Truth," https://www.loc.gov/item/2021666321/.
-[^fhac]: 中国第一历史档案馆, official portal, resource description accessed 4 June 2026, https://fhac.com.cn/index.html.
-[^qing-archives]: 中国大百科全书, "清政府镇压太平天国档案史料," https://www.zgbk.com/ecph/words?ID=38095&SiteID=1&SubID=47587&Type=bkzyb.
-[^reilly]: Thomas H. Reilly, *The Taiping Heavenly Kingdom: Rebellion and the Blasphemy of Empire* (Seattle: University of Washington Press, 2004).
 [^kuhn]: Philip A. Kuhn, *Rebellion and Its Enemies in Late Imperial China: Militarization and Social Structure, 1796–1864* (Cambridge, MA: Harvard University Press, 1970).
 [^meyer-fong]: Tobie Meyer-Fong, *What Remains: Coming to Terms with Civil War in 19th Century China* (Stanford: Stanford University Press, 2013).
-[^michael]: Franz Michael, *The Taiping Rebellion: History and Documents*, 3 vols. (Seattle: University of Washington Press, 1966–1971).
-[^michael-i]: Franz Michael, *The Taiping Rebellion: History and Documents*, Vol. I: *History* (Seattle: University of Washington Press, 1966).
 [^michael-ii]: Franz Michael, ed., *The Taiping Rebellion: History and Documents*, Vol. II: *Documents and Comments* (Seattle: University of Washington Press, 1971).
 [^michael-iii]: Franz Michael, ed., *The Taiping Rebellion: History and Documents*, Vol. III: *Documents and Comments* (Seattle: University of Washington Press, 1971).
 [^luo-ergang]: Luo Ergang 罗尔纲, *Taiping Tianguo shi* 太平天国史 (Beijing: Zhonghua shuju, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
-[^ward]: Encyclopaedia Britannica, "Frederick Townsend Ward," accessed 4 June 2026, https://www.britannica.com/biography/Frederick-Townsend-Ward.
-[^wilson]: Andrew Wilson, *The Ever-Victorious Army: A History of the Chinese Campaign under Lt. Col. C. G. Gordon*, Blackwood, 1868, Internet Archive, https://archive.org/details/evervictoriousa00wilsgoog.
-[^north-china-herald]: Internet Archive collection page, *North-China Herald*, https://archive.org/details/northchinaherald.

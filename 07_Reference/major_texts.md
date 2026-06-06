@@ -74,11 +74,8 @@ Before the uprising, Hong Xiuquan composed three key texts that established the 
 [^kuhn]: Philip A. Kuhn, *Rebellion and Its Enemies in Late Imperial China: Militarization and Social Structure, 1796–1864*, Harvard University Press, https://www.hup.harvard.edu/books/9780674039780.
 [^wilson]: Andrew Wilson, *The Ever-Victorious Army: A History of the Chinese Campaign under Lt. Col. C. G. Gordon*, Blackwood, 1868, Internet Archive, https://archive.org/details/evervictoriousa00wilsgoog.
 [^north-china-herald]: Internet Archive collection page, *North-China Herald*, https://archive.org/details/northchinaherald.
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
 [^meyer-fong]: Tobie Meyer-Fong, *What Remains: Coming to Terms with Civil War in 19th Century China*, Stanford University Press, https://www.sup.org/books/asian-studies/what-remains.
 [^reilly]: Thomas H. Reilly, *The Taiping Heavenly Kingdom: Rebellion and the Blasphemy of Empire*, University of Washington Press description, https://uwapress.uw.edu/book/9780295993720/the-taiping-heavenly-kingdom/.
-[^ward]: Encyclopaedia Britannica, "Frederick Townsend Ward," accessed 4 June 2026, https://www.britannica.com/biography/Frederick-Townsend-Ward.
 [^luo]: Luo Ergang (罗尔纲), *Taiping Tianguo Shigao* (太平天国史稿) and related works.
 [^acs-jintian]: Academy of Chinese Studies, "The Jintian Uprising and Founding of the Heavenly Kingdom of Great Peace," accessed 4 June 2026, https://chiculture.org.hk/en/photo-story/1186.
 [^fhac]: 中国第一历史档案馆, official portal, resource description accessed 4 June 2026, https://fhac.com.cn/index.html.

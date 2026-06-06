@@ -92,7 +92,5 @@ The Sacred Treasury is also contested. Some historians, particularly in the Chin
 [^mao]: Mao Jiaqi 茅家琦, ed., *Taiping tianguo tongshi* 太平天国通史, 3 vols. (Nanjing: Nanjing daxue chubanshe, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
 [^wilson]: Andrew Wilson, *The "Ever-Victorious Army": A History of the Chinese Campaign under Lt.-Col. C.G. Gordon* (Edinburgh: William Blackwood, 1868).
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
 [^tianmu]: 《天朝田畝制度》, Wikisource, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.
 [^zizheng]: 洪仁玕, 《資政新篇》, Wikisource, https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%94%BF%E6%96%B0%E7%AF%87.

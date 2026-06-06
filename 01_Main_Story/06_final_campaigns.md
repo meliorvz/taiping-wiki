@@ -36,7 +36,7 @@ Li Xiucheng, back inside the city after his failed relief attempt, urged Hong to
 
 ## Hong Xiuquan's Death
 
-Hong Xiuquan died on 1 June 1864, at the age of fifty. The cause of death is disputed. The Qing government's official account, drawn from the confession of Li Xiucheng, claimed that Hong committed suicide by poison as Xiang Army forces closed in. Some Taiping accounts suggest he died of illness — likely malnutrition or illness exacerbated by starvation — after refusing to eat anything but "heavenly dew" (wild herbs and grasses). The victors' account is inherently suspect, and there is no reliable independent source.[^michael1][^britannica-hong]
+Hong Xiuquan died on 1 June 1864, at the age of fifty. The cause of death is disputed. The Qing government's official account, drawn from the confession of Li Xiucheng, claimed that Hong committed suicide by poison as Xiang Army forces closed in. Some Taiping accounts suggest he died of illness — likely malnutrition or illness exacerbated by starvation — after refusing to eat anything but "heavenly dew" (wild herbs and grasses). The victors' account is inherently suspect, and there is no reliable independent source.[^michael1][^luo]
 
 Before his death, Hong designated his fifteen-year-old son, Hong Tianguifu (洪天贵福, Hóng Tiānguìfú), as his successor — the Young Heavenly King (幼天王, Yòu Tiānwáng). The boy's succession was nominal. He had no military experience, no independent authority, and no adult supporters capable of organizing a functioning court. The real power inside the dying city lay with the military commanders who still commanded troops, and they were preparing to flee.[^michael1]
 
@@ -101,5 +101,3 @@ Meyer-Fong's work has shifted the debate from military operations to the human e
 [^mao]: Mao Jiaqi 茅家琦, ed., *Taiping tianguo tongshi* 太平天国通史, 3 vols. (Nanjing: Nanjing daxue chubanshe, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
 [^wilson]: Andrew Wilson, *The "Ever-Victorious Army": A History of the Chinese Campaign under Lt.-Col. C.G. Gordon* (Edinburgh: William Blackwood, 1868).
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.

@@ -53,13 +53,10 @@ The war's fiscal dimension was inseparable from regional economic geography:
 
 ## Sources
 
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
 [^kuhn]: Philip A. Kuhn, *Rebellion and Its Enemies in Late Imperial China: Militarization and Social Structure, 1796–1864*, Harvard University Press, 1970. https://www.hup.harvard.edu/books/9780674039780.
 [^meyer-fong]: Tobie Meyer-Fong, *What Remains: Coming to Terms with Civil War in 19th Century China*, Stanford University Press, 2013. https://www.sup.org/books/asian-studies/what-remains. Meyer-Fong provides detailed treatment of Jiangnan regional devastation and survivor memory.
 [^luo]: Luo Ergang (罗尔纲), *Taiping Tianguo Shigao* (太平天国史稿) and related works. Luo's detailed county-level record of the war is essential for regional analysis.
 [^michael]: Franz H. Michael, *The Taiping Rebellion: History and Documents*, University of Washington Press, 1966–1971 (3 vols). https://catalog.hathitrust.org/Record/001257971.
-[^ward]: Encyclopaedia Britannica, "Frederick Townsend Ward," accessed 4 June 2026, https://www.britannica.com/biography/Frederick-Townsend-Ward.
 [^wilson]: Andrew Wilson, *The Ever-Victorious Army: A History of the Chinese Campaign under Lt. Col. C. G. Gordon*, Blackwood, 1868, Internet Archive, https://archive.org/details/evervictoriousa00wilsgoog.
 [^north-china-herald]: Internet Archive collection page, *North-China Herald*, https://archive.org/details/northchinaherald.
 [^reilly]: Thomas H. Reilly, *The Taiping Heavenly Kingdom: Rebellion and the Blasphemy of Empire*, University of Washington Press description, https://uwapress.uw.edu/book/9780295993720/the-taiping-heavenly-kingdom/.

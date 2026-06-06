@@ -53,7 +53,7 @@ The reliability of pre-war and post-war population figures varies enormously by 
 |------|---------------|------------------------|-------|
 | Jan 1851 (Jintian) | 5,000–10,000 armed men; 10,000–20,000 total | Several thousand Green Standard troops and militia | Numbers contested; see Debate section in Jintian Uprising page |
 | Mar 1853 (Capture of Nanjing) | 100,000–200,000 total (combatants and camp followers) | Nanjing garrison unknown; field armies fragmented | Army had swollen with recruits during the northern march |
-| 1856 (Peak territorial extent) | 300,000–500,000 total (across all theaters) | Xiang Army ~50,000; Green Standard/Banner forces ~200,000+ | Figures include garrison, field, and militia forces; no reliable central count |
+| 1856 (Peak territorial extent) | ~300,000–500,000 combatants; ~500,000–600,000 including camp followers and families (Luo Ergang)[^luo] | Xiang Army ~50,000; Green Standard/Banner forces ~200,000+ | Figures include garrison, field, and militia forces; no reliable central count |
 | 1860 (Post-revival after Tianjing Incident) | 200,000–300,000 total | Xiang Army ~60,000; Huai Army forming; Ever-Victorious Army ~3,000–5,000 | Taiping forces less concentrated than in 1856; more garrisons in more cities |
 | 1864 (Fall of Tianjing) | 100,000–200,000 (including scattered remnants) | Xiang Army siege corps ~50,000; total Qing forces in theater ~300,000+ | Taiping numbers collapsing from desertion, starvation, and defeat |
 
@@ -65,7 +65,7 @@ All figures are estimates. The scholarly consensus, articulated by Luo Ergang an
 |-----------|-------|--------------|
 | Duration of open warfare | 14 years (Jan 1851 – 1864/1866/1868 depending on endpoint) | 1851–1864 (core war); residual fighting through 1868 (Nian connection) |
 | Provinces affected by major combat | 16+ | Guangxi, Guangdong, Hunan, Hubei, Jiangxi, Anhui, Jiangsu, Zhejiang, Fujian, Henan, Shandong, Shanxi, Shaanxi, Zhili, Sichuan, Guizhou |
-| Estimated total deaths | 10–30 million | Britannica cites 20 million as a common overview figure |
+| Estimated total deaths | 10–30 million | Ho Ping-ti's demographic reconstruction is the origin of the 20 million overview figure |
 | Peak Taiping territorial extent | Approximately 3–4 provinces under sustained administration; influence over portions of 6–8 more | Territory fluctuated; there was never a stable border |
 | Cities held by the Taiping at peak (1856) | Several hundred county seats, prefectural cities, and fortified towns | Including Nanjing, Wuchang (briefly), Anqing, Zhenjiang, Yangzhou, and scores of smaller cities |
 

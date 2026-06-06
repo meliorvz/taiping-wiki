@@ -12,7 +12,7 @@ The war changed the Qing state, destroyed communities across the Yangzi region, 
 
 The Taiping grew from south China after the First Opium War, when Qing authority faced pressure from foreign intrusion, silver shortages, local violence, population strain, and weak county-level control. Guangxi was especially unstable. Migrants, miners, poor peasants, lineage groups, Hakka communities (客家, Kèjiā), and Punti (本地, Běndì, "local people") competed over land, labor, and security. Hong Xiuquan's religious message reached this world through Feng Yunshan, 冯云山, Féng Yúnshān, who organized believers in Guangxi's Zijing Mountain (紫荆山, Zǐjīngshān) area from 1844 to 1847 while Hong's visions gave the movement a sacred center.[^michael1][^kuhn]
 
-Hong had failed the provincial civil service examinations four times: in 1827 he passed the county-level exam, then failed the provincial *juren* (举人) exam in Canton in 1836, 1837, and 1843. During his 1836 visit to Canton, he received a set of Christian tracts, *Quanshi liangyan* (劝世良言, "Good Words for Exhorting the Age"), written by Liang Afa (梁发), a Chinese Protestant convert. In 1843, after his final failure, Hong reread the tracts and interpreted visions he had experienced during a severe illness in 1837 as proof that he was the younger brother of Jesus Christ, commissioned by God the Father to cleanse the world of demons. This was not missionary Christianity as Protestants understood it. Hong's religion used Chinese terms, Protestant-derived ideas, anti-idolatry, and his own claim to divine family status to create a new Chinese religious tradition.[^michael1][^reilly]
+Hong passed the county-level exam in 1827 at age thirteen but failed the provincial *juren* (举人) exam three times: in 1836, 1837, and 1843, in Canton. During his 1836 visit to Canton, he received a set of Christian tracts, *Quanshi liangyan* (劝世良言, "Good Words for Exhorting the Age"), written by Liang Afa (梁发), a Chinese Protestant convert. In 1843, after his final failure, Hong reread the tracts and interpreted visions he had experienced during a severe illness in 1837 as proof that he was the younger brother of Jesus Christ, commissioned by God the Father to cleanse the world of demons. This was not missionary Christianity as Protestants understood it. Hong's religion used Chinese terms, Protestant-derived ideas, anti-idolatry, and his own claim to divine family status to create a new Chinese religious tradition.[^michael1][^reilly]
 
 ## Jintian and the Birth of the Taiping Army
 
@@ -24,11 +24,11 @@ The early Taiping survived because they moved quickly, kept enough cohesion to d
 
 In 1852 the Taiping broke out of Qing containment and moved north through Guangxi and Hunan. They lost Feng Yunshan at the battle of Quanzhou in May 1852 and Xiao Chaogui during the siege of Changsha in September 1852. Despite these losses the army continued toward the Yangzi. In January 1853 they captured Wuchang, the capital of Hubei province. From there they moved east down the river in a vast fleet, taking Jiujiang (18 February), Anqing (24 February), and then Nanjing.[^michael1][^lindley]
 
-Nanjing changed the war. Before 1853 the Taiping were a mobile rebellion. After the city fell on 19–20 March 1853, they had a capital, a court, a territorial state, and a target the Qing could besiege. They renamed Nanjing Tianjing and treated it as the Heavenly Kingdom's sacred center.[^michael1][^britannica-taiping]
+Nanjing changed the war. Before 1853 the Taiping were a mobile rebellion. After the city fell on 19–20 March 1853, they had a capital, a court, a territorial state, and a target the Qing could besiege. They renamed Nanjing Tianjing and treated it as the Heavenly Kingdom's sacred center.[^michael1]
 
 ## Tianjing and the Taiping State
 
-The Taiping state was built around Hong Xiuquan's sacred kingship, a hierarchy of kings and officials, strict moral rules, religious worship, military units, and printed official texts. The best-known program, 天朝田亩制度, Tiāncháo tiánmǔ zhìdù, "Land System of the Heavenly Dynasty," promulgated in 1853, imagined land distribution by household population, common granaries, local worship halls, and a combined military-agricultural order administered through twenty-five-household units (两, liǎng). The text was radical: land cultivated together, food eaten together, clothing shared, money used in common. It was never fully implemented. The surviving evidence from war zones shows a harder reality: armies needed grain now, cities needed supplies, officials issued orders, and local communities faced occupation, flight, requisition, and violence.[^tianmu][^michael1][^luo]
+The Taiping state was built around Hong Xiuquan's sacred kingship, a hierarchy of kings and officials, strict moral rules, religious worship, military units, and printed official texts. Its most ambitious programme was the 天朝田亩制度, "Land System of the Heavenly Dynasty" — a radical vision of common land, common granaries, and combined military-agricultural administration that was never fully implemented, described in detail in [Land System](/wiki/03_Taiping_State/land_system). The surviving evidence from war zones shows a harder reality: armies needed grain now, cities needed supplies, officials issued orders, and local communities faced occupation, flight, requisition, and violence.[^tianmu][^michael1][^luo]
 
 ## Religion and Ideology
 
@@ -76,7 +76,7 @@ Hong Xiuquan died on 1 June 1864. His fifteen-year-old son, Hong Tianguifu, was 
 
 ## Human Cost
 
-The Taiping war was one of the deadliest civil conflicts in modern history. Britannica gives an estimate of 20 million deaths. The demographic collapse was concentrated in the lower Yangzi provinces — Jiangsu, Anhui, Zhejiang, Jiangxi, Hubei — where pre-war counties lost a third to a half of their recorded population to battle, massacre, famine, epidemic disease, displacement, and the breakdown of the agricultural economy.[^britannica-taiping][^meyer-fong]
+The Taiping war was one of the deadliest civil conflicts in modern history. The commonly cited estimate of 20 million deaths originates with Ho Ping-ti's population reconstructions. The demographic collapse was concentrated in the lower Yangzi provinces — Jiangsu, Anhui, Zhejiang, Jiangxi, Hubei — where pre-war counties lost a third to a half of their recorded population to battle, massacre, famine, epidemic disease, displacement, and the breakdown of the agricultural economy.[^ho-pingti][^meyer-fong]
 
 Tobie Meyer-Fong's work shifts attention from total numbers to how survivors experienced the war and its aftermath: burying the dead, rebuilding households, remembering loyalty, living with ruins. Some lineages rebuilt ancestral halls and genealogies after the war; some local elites remembered themselves as loyal victims of rebel violence; some communities produced commemorative texts that shaped the war's memory for generations. The war's history cannot be written only from capitals and commanders.[^meyer-fong]
 
@@ -104,7 +104,6 @@ The field's major disagreements cluster around three issues. First, the role of 
 - Mao Jiaqi 茅家琦, ed., *Taiping tianguo tongshi* 太平天国通史, 3 vols. (Nanjing: Nanjing daxue chubanshe, 1991)
 - Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866)
 - Andrew Wilson, *The "Ever-Victorious Army"* (Edinburgh: William Blackwood, 1868)
-- Encyclopaedia Britannica, "Taiping Rebellion" and "Hong Xiuquan"
 
 ## Next Pages
 
@@ -127,7 +126,7 @@ The field's major disagreements cluster around three issues. First, the role of 
 [^mao]: Mao Jiaqi 茅家琦, ed., *Taiping tianguo tongshi* 太平天国通史, 3 vols. (Nanjing: Nanjing daxue chubanshe, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
 [^wilson]: Andrew Wilson, *The "Ever-Victorious Army": A History of the Chinese Campaign under Lt.-Col. C.G. Gordon* (Edinburgh: William Blackwood, 1868).
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
+
+[^ho-pingti]: Ho Ping-ti (何炳棣), *Studies on the Population of China, 1368–1953* (Cambridge, MA: Harvard University Press, 1959).
 [^tianmu]: 《天朝田畝制度》, Wikisource, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.
 [^zizheng]: 洪仁玕, 《資政新篇》, Wikisource, https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%94%BF%E6%96%B0%E7%AF%87.

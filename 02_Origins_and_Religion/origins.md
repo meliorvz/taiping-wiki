@@ -14,7 +14,7 @@ Secret societies — the Triads, 天地会 (*Tiāndìhuì*), and others — oper
 
 ## Hong's failed examinations and visions
 
-Hong Xiuquan came from a Hakka family in Hua county, Guangdong. Like many ambitious village families, his family invested hope in the civil service examinations. He failed repeatedly. After one failure in 1837, he suffered a severe illness and experienced visions that he later interpreted — through Liang Afa's *Good Words for Exhorting the Age* — as a divine commission: Shangdi had chosen him to destroy demons and purify China.[^michael-i][^reilly]
+Hong Xiuquan failed the provincial examinations repeatedly — the full story, including his 1837 visions and their reinterpretation through Liang Afa's tracts, is told in [Hong Xiuquan](/wiki/02_Origins_and_Religion/hong_xiuquan).
 
 Examination failure did not cause the rebellion by itself. Many men failed the examinations and did not found kingdoms. But Hong's failure mattered in a specific way. The examinations were the legitimate path to elite status in Qing China. Hong's exclusion from that path — repeated, humiliating, irreversible — made him receptive to a spiritual explanation that delegitimised the entire system. The imperial order had rejected him; his religion declared that the imperial order was itself rejected by Heaven.[^reilly]
 
@@ -63,8 +63,6 @@ The origins explain the later Taiping state. Its religion came from Hong's visio
 
 ## Notes
 
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
 [^acs-jintian]: Academy of Chinese Studies, "The Jintian Uprising and Founding of the Heavenly Kingdom of Great Peace," accessed 4 June 2026, https://chiculture.org.hk/en/photo-story/1186.
 [^tianmu]: 《天朝田畝制度》, Wikisource access text, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.
 [^zizheng]: 洪仁玕, 《資政新篇》, Wikisource access text, https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%94%BF%E6%96%B0%E7%AF%87.
@@ -81,6 +79,5 @@ The origins explain the later Taiping state. Its religion came from Hong's visio
 [^michael-iii]: Franz Michael, ed., *The Taiping Rebellion: History and Documents*, Vol. III: *Documents and Comments* (Seattle: University of Washington Press, 1971).
 [^luo-ergang]: Luo Ergang 罗尔纲, *Taiping Tianguo shi* 太平天国史 (Beijing: Zhonghua shuju, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
-[^ward]: Encyclopaedia Britannica, "Frederick Townsend Ward," accessed 4 June 2026, https://www.britannica.com/biography/Frederick-Townsend-Ward.
 [^wilson]: Andrew Wilson, *The Ever-Victorious Army: A History of the Chinese Campaign under Lt. Col. C. G. Gordon*, Blackwood, 1868, Internet Archive, https://archive.org/details/evervictoriousa00wilsgoog.
 [^north-china-herald]: Internet Archive collection page, *North-China Herald*, https://archive.org/details/northchinaherald.

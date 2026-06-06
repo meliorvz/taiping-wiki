@@ -14,16 +14,7 @@ The early weeks tested the movement's cohesion. Qing commanders sent several tho
 
 In September 1851 the Taiping captured the walled city of Yong'an (永安, Yǒng'ān) in eastern Guangxi. This was the first county seat they held, and the occupation lasted until April 1852 — roughly seven months. The Yong'an period was decisive for state-building.[^michael1][^mao]
 
-At Yong'an, Hong Xiuquan formalized the royal hierarchy. He named five subordinate kings:
-- Yang Xiuqing (杨秀清, Yáng Xiùqīng) as Eastern King (东王, Dōng Wáng)
-- Xiao Chaogui (萧朝贵, Xiāo Cháoguì) as Western King (西王, Xī Wáng)
-- Feng Yunshan (冯云山, Féng Yúnshān) as Southern King (南王, Nán Wáng)
-- Wei Changhui (韦昌辉, Wéi Chānghuī) as Northern King (北王, Běi Wáng)
-- Shi Dakai (石达开, Shí Dákāi) as Assistant King or Wing King (翼王, Yì Wáng)[^michael1]
-
-This hierarchy was not merely ceremonial. Each king commanded military forces, administered territory as it was acquired, and exercised authority within the evolving Taiping state. Yang Xiuqing, as Eastern King, was designated commander-in-chief and claimed the spiritual gift of speaking in the voice of the Heavenly Father during trance states — a claim that gave him authority potentially exceeding Hong's own.[^michael1][^reilly]
-
-At Yong'an the Taiping also issued proclamations defining the new kingdom's purpose, organized the army into formal units, established a treasury system that required believers to surrender private property, and began the practice of separate male and female camps. The court issued its first calendar — a Taiping calendar that diverged from the Qing calendar — and began producing the official texts that would define the movement's ideology.[^michael1][^luo]
+At Yong'an, Hong Xiuquan formalized the royal hierarchy, naming five subordinate kings. The full court formation — including each king's role, the establishment of the Sacred Treasury, and the introduction of the Taiping calendar — is described in [Guangxi Campaigns and the Yong'an Period](/wiki/04_War_and_Campaigns/guangxi_campaigns_1851_1852). Yang Xiuqing, as Eastern King, was designated commander-in-chief and claimed the spiritual gift of speaking in the voice of the Heavenly Father during trance states — a claim that gave him authority potentially exceeding Hong's own. At Yong'an the Taiping also began the practice of separate male and female camps.[^michael1][^reilly]
 
 Qing forces besieged Yong'an through the winter of 1851–1852 but could not break the Taiping lines. The siege was porous; supplies reached the city and Taiping patrols operated outside the walls. The Qing failure to crush the rebellion at Yong'an gave the Taiping time to consolidate.[^michael1]
 
@@ -57,7 +48,7 @@ The Taiping mined the city walls, bombarded the defenses with captured artillery
 
 ## Nanjing Becomes Tianjing
 
-Hong Xiuquan entered Nanjing on 29 March 1853. He renamed the city Tianjing (天京, Tiānjīng, "Heavenly Capital") and declared it the sacred center of the Taiping Heavenly Kingdom. The decision changed the war. A mobile army can live by movement and plunder. A capital must be defended, supplied, governed, and justified. Before Nanjing, the Taiping were a rebellion in transit. After Nanjing, they were a territorial state with a fixed seat — and a target that the Qing could besiege.[^michael1][^britannica-taiping]
+Hong Xiuquan entered Nanjing on 29 March 1853. He renamed the city Tianjing (天京, Tiānjīng, "Heavenly Capital") and declared it the sacred center of the Taiping Heavenly Kingdom. The decision changed the war. A mobile army can live by movement and plunder. A capital must be defended, supplied, governed, and justified. Before Nanjing, the Taiping were a rebellion in transit. After Nanjing, they were a territorial state with a fixed seat — and a target that the Qing could besiege.[^michael1]
 
 The speed of the Taiping advance — roughly one thousand miles from Jintian to Nanjing in just over two years — stunned the Qing court and foreign observers alike. The movement had survived the deaths of two founding kings, fought through multiple provinces, and captured one of the empire's great cities. But the court that now occupied Nanjing had deep structural problems: a sacred king who was increasingly reclusive, a dominant commander (Yang Xiuqing) whose spiritual claims created tension at the center, and an army that still had no reliable territorial administration or tax base. These problems would shape the next phase of the war.[^michael1][^reilly]
 
@@ -91,7 +82,6 @@ Historians disagree about the Taiping's strategic choices at Wuchang. Some argue
 [^mao]: Mao Jiaqi 茅家琦, ed., *Taiping tianguo tongshi* 太平天国通史, 3 vols. (Nanjing: Nanjing daxue chubanshe, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
 [^wilson]: Andrew Wilson, *The "Ever-Victorious Army": A History of the Chinese Campaign under Lt.-Col. C.G. Gordon* (Edinburgh: William Blackwood, 1868).
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
+
 [^tianmu]: 《天朝田畝制度》, Wikisource, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.
 [^zizheng]: 洪仁玕, 《資政新篇》, Wikisource, https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%94%BF%E6%96%B0%E7%AF%87.

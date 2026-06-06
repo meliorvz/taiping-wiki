@@ -7,7 +7,7 @@
 ## Claim ID: CLM-0001
 
 - **Claim**: Hong Xiuquan failed the civil service examination four times (1827, 1833, 1837, 1843), and this failure was a key psychological and social driver of his turn toward religious radicalism.
-- **Supported by**: SRC-0027 (Spence), SRC-0023 (Britannica), SRC-0004 (Reilly)
+- **Supported by**: SRC-0027 (Spence), SRC-0001 (Michael), SRC-0004 (Reilly)
 - **Source type**: Western scholarship; modern reference
 - **Evidence category**: Later historical argument (biographical reconstruction)
 - **Confidence**: High (for the fact of failure); moderate (for the causal link to radicalism)
@@ -151,7 +151,7 @@
 ## Claim ID: CLM-0013
 
 - **Claim**: The death toll of the Taiping Rebellion was 20-30 million, making it the deadliest civil war in human history. This figure includes combat deaths, famine, disease, and massacre.
-- **Supported by**: SRC-0023 (Britannica), SRC-0001 (Michael — broadly supports), SRC-0005 (Meyer-Fong — documents demographic catastrophe without endorsing a single figure)
+- **Supported by**: Ho Ping-ti (1959), SRC-0001 (Michael — broadly supports), SRC-0005 (Meyer-Fong — documents demographic catastrophe without endorsing a single figure)
 - **Source type**: Modern reference; Western scholarship
 - **Evidence category**: Later historical argument (disputed methodology)
 - **Confidence**: Low (for the specific 20-30 million figure; high for catastrophic demographic impact)

@@ -9,6 +9,9 @@
 08_Sources_and_Editing/downloads/gazetteers/
 08_Sources_and_Editing/downloads/north_china_herald/
 
+# Writing reference books (downloaded for review/feedback)
+writing-reference/
+
 # OS files
 .DS_Store
 Thumbs.db

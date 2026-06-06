@@ -22,9 +22,7 @@ Triad (天地会, Tiāndìhuì, "Heaven and Earth Society") branches operated ac
 
 The civil service examinations promised status and office through study, but the ratio of candidates to available degrees had become brutal. The prefectural exam (the first stage) produced *xiucai* (秀才, "cultivated talent") degree holders in numbers far exceeding the quota of higher *juren* (举人, "recommended man") degrees at the provincial level. The *juren* examination, held triennially in provincial capitals, admitted only about one to two percent of candidates. The final *jinshi* (进士, "presented scholar") examination in Beijing admitted an even smaller fraction.[^reilly]
 
-Hong Xiuquan (洪秀全, Hóng Xiùquán) was born in 1814 in Fuyuan Village, Hua County (花县, Huā Xiàn), about thirty miles north of Canton (Guangzhou). His family were Hakka farmers of modest means. He showed early academic promise and in 1827, at age thirteen, he sat the county-level exam and placed first — a result that raised his family's expectations. He then failed the provincial *juren* examination in Canton in 1836, again in 1837, and a third time in 1843. Each failure consumed family resources in travel, lodging, and lost labor.[^michael1][^reilly]
-
-The 1836 failure carried an accidental consequence. While in Canton, Hong received a set of Christian tracts from a street preacher. The tracts were *Quanshi liangyan* (劝世良言, "Good Words for Exhorting the Age"), written by Liang Afa (梁发, Liáng Āfā), a Chinese convert who had worked with the Protestant missionary Robert Morrison. The tract contained translated Bible passages, moral exhortation, and attacks on idolatry. Hong took the pamphlets home but apparently did not study them closely at the time.[^reilly]
+Hong Xiuquan failed the provincial examinations repeatedly — a story told in detail in [Hong Xiuquan](/wiki/02_Origins_and_Religion/hong_xiuquan). During an exam visit to Canton, he received Christian tracts that later became the interpretive key to his visions, as described there.
 
 ## The Religious Opening: Hong's Vision and Feng Yunshan's Organizing
 
@@ -78,6 +76,4 @@ Scholars continue to debate the relative weight of social crisis versus religiou
 [^mao]: Mao Jiaqi 茅家琦, ed., *Taiping tianguo tongshi* 太平天国通史, 3 vols. (Nanjing: Nanjing daxue chubanshe, 1991).
 [^lindley]: Augustus F. Lindley, *Ti-ping Tien-kwoh: The History of the Ti-ping Revolution*, 2 vols. (London: Day & Son, 1866).
 [^wilson]: Andrew Wilson, *The "Ever-Victorious Army": A History of the Chinese Campaign under Lt.-Col. C.G. Gordon* (Edinburgh: William Blackwood, 1868).
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
 [^tianmu]: 《天朝田畝制度》, Wikisource, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.

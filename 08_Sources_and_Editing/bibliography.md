@@ -92,7 +92,7 @@ The following table summarizes the acquisition and verification status of major 
 | Action | Count | Sources |
 |--------|-------|---------|
 | Acquired & documented | 16 | Michael I, Michael II-III, Kuhn, Reilly, Meyer-Fong, Luo Ergang (4 vols), Mao Jiaqi (3 vols), Liu Chen, Lindley (2 vols), Wilson, Li Xiucheng (critical ed.), Li Xiucheng (plain text), Luo Ergang Quanji, Ying Jie Gui Zhen, BPP Vol. 32, North-China Herald |
-| Text/web access | 5 | Tianchao Tianmu Zhidu (Wikisource), Zizheng Xinpian (Wikisource), Yuandao Jiushi Ge (Wikisource), Britannica (2 entries), ACS Hong Kong |
+| Text/web access | 4 | Tianchao Tianmu Zhidu (Wikisource), Zizheng Xinpian (Wikisource), Yuandao Jiushi Ge (Wikisource), ACS Hong Kong |
 | Identified, IA borrowable | 3 | Spence (1996), Jian Youwen (1973), Kilcourse (2016) |
 | Identified, IA free | 8 | Callery & Yvan, Scarth, Hake, Meadows, Mossman, Hail, Mackie, British Parliamentary Papers: China (42 vols) |
 | Partial/documentary | 5 | Anhui gazetteer (~1200 fascicles), Jiangxi gazetteer (~90 fascicles), Fujiang gazetteer (partial), Taiping Yinshu (partial), Taiping Ziliao 2013 |
@@ -111,8 +111,6 @@ The following table summarizes the acquisition and verification status of major 
 
 ## Notes
 
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
 [^acs-jintian]: Academy of Chinese Studies, "The Jintian Uprising and Founding of the Heavenly Kingdom of Great Peace," accessed 4 June 2026, https://chiculture.org.hk/en/photo-story/1186.
 [^tianmu]: 《天朝田畝制度》, Wikisource access text, https://zh.wikisource.org/wiki/%E5%A4%A9%E6%9C%9D%E7%94%B0%E7%95%9D%E5%88%B6%E5%BA%A6.
 [^zizheng]: 洪仁玕, 《資政新篇》, Wikisource access text, https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%94%BF%E6%96%B0%E7%AF%87.
@@ -163,4 +161,3 @@ The following table summarizes the acquisition and verification status of major 
 [^gazetteers-anhui]: 光緒重修安徽通志, Internet Archive, https://archive.org/details/02085213.cn (and sequential IDs 02085213-02085359).
 [^gazetteers-jiangxi]: 光緒江西通志, Internet Archive, https://archive.org/details/02085378.cn (sample; ~90 fascicles).
 [^gazetteers-fujian]: 福建通志, partial, https://archive.org/details/06041765.cn.
-[^ward]: Encyclopaedia Britannica, "Frederick Townsend Ward," accessed 4 June 2026, https://www.britannica.com/biography/Frederick-Townsend-Ward.

@@ -2,7 +2,7 @@
 
 ![Traditional Chinese ink wash painting depicting the human cost of the civil war](/images/human_cost.png)
 
-The Taiping war killed and displaced vast numbers of people across central and eastern China. The commonly cited estimate of 20 million deaths — a figure that appears in many reference works, including Britannica — should be understood as a broad order-of-magnitude estimate, not a precise count. The real human history lies in the regional patterns of death and survival, the causes of mortality, and the ways communities experienced and recorded loss.[^meyer]
+The Taiping war killed and displaced vast numbers of people across central and eastern China. The commonly cited estimate of 20 million deaths — a figure that appears in many reference works — should be understood as a broad order-of-magnitude estimate, not a precise count. The real human history lies in the regional patterns of death and survival, the causes of mortality, and the ways communities experienced and recorded loss.[^meyer]
 
 ## Why numbers are inherently uncertain
 

@@ -1,5 +1,7 @@
 # Translation Notes Template
 
+> For translation standards and the three-tier rule (original, literal, polished), see [Editorial Standards](editorial_standards.md).
+
 Use this format for important Chinese passages.
 
 | Field | Entry |

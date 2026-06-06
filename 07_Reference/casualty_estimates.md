@@ -6,7 +6,7 @@ The result is that all casualty figures for this war are estimates — and the r
 
 ## The "20 Million" Figure
 
-The most commonly cited aggregate — 20 million deaths — originates in the population reconstructions of the historian Ho Ping-ti (何炳棣, 1959), who compared Qing taxation registers and gazetteer counts from the Daoguang (道光, 1820–1850) and Tongzhi (同治, 1862–1874) eras and found a demographic deficit of approximately 20 million in the provinces most affected by the war.[^ho-pingti] Encyclopaedia Britannica adopted this figure as its standard overview number, and it has since been repeated in countless textbooks and popular histories.[^britannica-taiping]
+The most commonly cited aggregate — 20 million deaths — originates in the population reconstructions of the historian Ho Ping-ti (何炳棣, 1959), who compared Qing taxation registers and gazetteer counts from the Daoguang (道光, 1820–1850) and Tongzhi (同治, 1862–1874) eras and found a demographic deficit of approximately 20 million in the provinces most affected by the war.[^ho-pingti]
 
 Supporters of the 20 million estimate note that it aligns with: (a) Ho Ping-ti's recognition that registered populations in Jiangsu, Anhui, Zhejiang, Jiangxi, and Hubei fell by tens of millions between prewar and postwar registers; (b) consistent reports from missionaries and foreign observers of massive depopulation along the Yangzi corridor; and (c) the fact that even conservative county-level studies commonly find mortality rates of 30–60% in directly contested zones.
 
@@ -35,10 +35,10 @@ The worst-hit regions were those in the Yangzi River corridor where the Taiping 
 
 ## Military Casualties
 
-**Taiping Army (太平军):** No comprehensive roster survives. At its peak, the Taiping military may have fielded 500,000–600,000 personnel across multiple theaters, though this included many non-combatant camp followers. Best estimates for specific engagements:
+**Taiping Army (太平军):** No comprehensive roster survives. At its peak, the Taiping military may have fielded approximately 300,000–500,000 combatants; the total including camp followers and families reached roughly 500,000–600,000 (Luo Ergang). Best estimates for specific engagements:
 - Siege of Nanjing (1862–1864): Possibly 100,000+ Taiping defenders killed in the final assault and subsequent massacre
 - Anqing (1861): ~16,000 Taiping defenders killed when the city fell to the Xiang Army
-- Suzhou (1863): Several tens of thousands in the siege and the subsequent execution of surrendered Taiping commanders by Charles Gordon's orders (the "Suzhou Massacre")
+- Suzhou (1863): Several tens of thousands in the siege and the subsequent execution of surrendered Taiping commanders on Li Hongzhang's orders — against the protests of Charles Gordon — (the "Suzhou Massacre")
 - Northern Expedition (1853–1855): The entire Taiping northern force of roughly 70,000–80,000 was annihilated
 
 **Qing regular forces (绿营 and 八旗):** The Green Standard Army (绿营) and Eight Banners (八旗) suffered severe losses in the early war (1850–1856), including complete destruction of several Banner garrisons at Wuchang and Nanjing. The Banner garrison at Nanjing was massacred in 1853. Qing regular forces were gradually replaced by provincial armies from 1856 onward, and their total combat deaths are estimated in the range of 200,000–400,000, though records are fragmentary.[^kuhn]
@@ -87,8 +87,6 @@ Use one broad estimate (such as "approximately 20 million" or "tens of millions"
 
 ## Sources
 
-[^britannica-taiping]: Encyclopaedia Britannica, "Taiping Rebellion," accessed 4 June 2026, https://www.britannica.com/event/Taiping-Rebellion.
-[^britannica-hong]: Encyclopaedia Britannica, "Hong Xiuquan," last updated 28 May 2026, https://www.britannica.com/biography/Hong-Xiuquan.
 [^ho-pingti]: Ho Ping-ti (何炳棣), *Studies on the Population of China, 1368–1953*, Harvard University Press, 1959. Ho's population reconstructions comparing Daoguang-era and Tongzhi-era registers are the origin of the widely cited "20 million" estimate.
 [^kuhn]: Philip A. Kuhn, *Rebellion and Its Enemies in Late Imperial China: Militarization and Social Structure, 1796–1864*, Harvard University Press, 1970. https://www.hup.harvard.edu/books/9780674039780. Kuhn provides the foundational analysis of military organization and militia casualty patterns.
 [^luo]: Luo Ergang (罗尔纲), *Taiping Tianguo Shigao* (太平天国史稿) and related works, multiple editions. Luo remains the most prolific Chinese historian of Taiping military and demographic data.
@@ -102,6 +100,5 @@ Use one broad estimate (such as "approximately 20 million" or "tens of millions"
 [^fhac]: 中国第一历史档案馆, official portal, resource description accessed 4 June 2026, https://fhac.com.cn/index.html.
 [^qing-archives]: 中国大百科全书, "清政府镇压太平天国档案史料," https://www.zgbk.com/ecph/words?ID=38095&SiteID=1&SubID=47587&Type=bkzyb.
 [^reilly]: Thomas H. Reilly, *The Taiping Heavenly Kingdom: Rebellion and the Blasphemy of Empire*, University of Washington Press description, https://uwapress.uw.edu/book/9780295993720/the-taiping-heavenly-kingdom/.
-[^ward]: Encyclopaedia Britannica, "Frederick Townsend Ward," accessed 4 June 2026, https://www.britannica.com/biography/Frederick-Townsend-Ward.
 [^wilson]: Andrew Wilson, *The Ever-Victorious Army: A History of the Chinese Campaign under Lt. Col. C. G. Gordon*, Blackwood, 1868, Internet Archive, https://archive.org/details/evervictoriousa00wilsgoog.
 [^north-china-herald]: Internet Archive collection page, *North-China Herald*, https://archive.org/details/northchinaherald.
