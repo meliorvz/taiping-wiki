@@ -19,8 +19,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const page = getPage(slug);
   if (!page) return {};
+  const isZh = page.slug === "zh" || page.slug.startsWith("zh/");
   return {
-    title: `${page.title} | Taiping Wiki`,
+    title: `${page.title} | ${isZh ? "太平天国维基" : "Taiping Wiki"}`,
     description: page.excerpt,
   };
 }

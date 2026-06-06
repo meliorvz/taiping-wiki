@@ -14,7 +14,11 @@ function resolveMarkdownHref(href: string, sourcePath: string) {
     if (part === "..") resolved.pop();
     else resolved.push(part);
   }
-  return `/wiki/${resolved.join("/")}`;
+  let path = resolved.join("/");
+  if (path.startsWith("translations/")) {
+    path = path.slice("translations/".length);
+  }
+  return `/wiki/${path}`;
 }
 
 function inline(text: string, sourcePath: string, keyToNum: Map<string, number>): InlinePart[] {

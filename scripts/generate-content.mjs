@@ -14,7 +14,7 @@ const includeRoots = [
   "08_Sources_and_Editing",
 ];
 
-const sectionLabels = {
+const sectionLabelsEn = {
   "": "Home",
   "00_Start_Here": "Start Here",
   "01_Main_Story": "Main Story",
@@ -25,6 +25,19 @@ const sectionLabels = {
   "06_Aftermath_and_Memory": "Aftermath & Memory",
   "07_Reference": "Reference",
   "08_Sources_and_Editing": "Sources & Editing",
+};
+
+const sectionLabelsZh = {
+  "": "首页",
+  "00_Start_Here": "从这里开始",
+  "01_Main_Story": "主要故事",
+  "02_Origins_and_Religion": "起源与宗教",
+  "03_Taiping_State": "太平天国政权",
+  "04_War_and_Campaigns": "战争与战役",
+  "05_Qing_Response": "清廷应对",
+  "06_Aftermath_and_Memory": "后事与记忆",
+  "07_Reference": "参考资料",
+  "08_Sources_and_Editing": "史料与编辑",
 };
 
 const excludeFiles = [
@@ -51,6 +64,7 @@ function walk(dir) {
   });
 }
 
+// English source files
 const files = [
   path.join(root, "index.md"),
   ...includeRoots.flatMap((dir) => walk(path.join(root, dir))),
@@ -59,9 +73,31 @@ const files = [
   return !excludeFiles.includes(relative);
 });
 
-function slugFromRelative(relative) {
-  if (relative === "index.md") return "";
-  return relative.replace(/\.md$/, "");
+// Chinese translation files
+const zhRoot = path.join(root, "translations", "zh");
+const zhFiles = [
+  path.join(zhRoot, "index.md"),
+  ...includeRoots.flatMap((dir) => {
+    const dirPath = path.join(zhRoot, dir);
+    try {
+      return walk(dirPath);
+    } catch (e) {
+      return [];
+    }
+  }),
+].filter((file) => {
+  const relative = path.relative(zhRoot, file);
+  return !excludeFiles.includes(relative);
+});
+
+function slugFromRelative(relative, isZh) {
+  if (isZh) {
+    if (relative === "index.md") return "zh";
+    return "zh/" + relative.replace(/\.md$/, "");
+  } else {
+    if (relative === "index.md") return "";
+    return relative.replace(/\.md$/, "");
+  }
 }
 
 function titleFromMarkdown(markdown, relative) {
@@ -70,16 +106,29 @@ function titleFromMarkdown(markdown, relative) {
 }
 
 function excerptFromMarkdown(markdown) {
-  const withoutTitle = markdown.replace(/^#\s+.+$/m, "").trim();
+  let withoutTitle = markdown.replace(/^#\s+.+$/m, "").trim();
+  if (withoutTitle.startsWith("[Chinese translation — 中文翻译]")) {
+    withoutTitle = withoutTitle.replace(/^\[Chinese translation — 中文翻译\]\r?\n?/, "").trim();
+  }
   const paragraph = withoutTitle
     .split(/\n{2,}/)
-    .find((block) => /^[A-Za-z0-9*_\[]/.test(block.trim()));
+    .find((block) => {
+      const trimmed = block.trim();
+      return trimmed && !trimmed.startsWith("#") && !trimmed.startsWith("-") && !/^\d+\.\s/.test(trimmed);
+    });
   if (!paragraph) return "";
   const cleaned = paragraph
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
     .replace(/[*_`#>-]/g, "")
     .replace(/\s+/g, " ")
     .trim();
+  
+  const isChinese = /[\u4e00-\u9fa5]/.test(cleaned);
+  if (isChinese) {
+    if (cleaned.length <= 150) return cleaned;
+    return cleaned.slice(0, 150).trim() + "...";
+  }
+
   if (cleaned.length <= 220) return cleaned;
   
   let truncated = cleaned.slice(0, 220);
@@ -102,21 +151,42 @@ function readingMinutes(markdown) {
   return Math.max(1, Math.round(words / 230));
 }
 
-const pages = files.map((file) => {
-  const relative = path.relative(root, file);
-  const markdown = readFileSync(file, "utf8");
-  const sectionKey = relative.includes(path.sep) ? relative.split(path.sep)[0] : "";
-  return {
-    slug: slugFromRelative(relative),
-    sourcePath: relative,
-    title: titleFromMarkdown(markdown, relative),
-    section: sectionLabels[sectionKey] ?? "Wiki",
-    markdown,
-    excerpt: excerptFromMarkdown(markdown),
-    headings: headingsFromMarkdown(markdown),
-    readingMinutes: readingMinutes(markdown),
-  };
-});
+const pages = [
+  ...files.map((file) => {
+    const relative = path.relative(root, file);
+    const markdown = readFileSync(file, "utf8");
+    const sectionKey = relative.includes(path.sep) ? relative.split(path.sep)[0] : "";
+    return {
+      slug: slugFromRelative(relative, false),
+      sourcePath: relative,
+      title: titleFromMarkdown(markdown, relative),
+      section: sectionLabelsEn[sectionKey] ?? "Wiki",
+      markdown,
+      excerpt: excerptFromMarkdown(markdown),
+      headings: headingsFromMarkdown(markdown),
+      readingMinutes: readingMinutes(markdown),
+    };
+  }),
+  ...zhFiles.map((file) => {
+    const relative = path.relative(root, file);
+    const subRelative = path.relative(zhRoot, file);
+    let markdown = readFileSync(file, "utf8");
+    if (markdown.startsWith("[Chinese translation — 中文翻译]")) {
+      markdown = markdown.replace(/^\[Chinese translation — 中文翻译\]\r?\n?/, "").trim();
+    }
+    const sectionKey = subRelative.includes(path.sep) ? subRelative.split(path.sep)[0] : "";
+    return {
+      slug: slugFromRelative(subRelative, true),
+      sourcePath: relative,
+      title: titleFromMarkdown(markdown, subRelative),
+      section: sectionLabelsZh[sectionKey] ?? "维基",
+      markdown,
+      excerpt: excerptFromMarkdown(markdown),
+      headings: headingsFromMarkdown(markdown),
+      readingMinutes: readingMinutes(markdown),
+    };
+  })
+];
 
 pages.sort((a, b) => {
   const ai = order.indexOf(a.sourcePath);
@@ -125,8 +195,11 @@ pages.sort((a, b) => {
   return a.sourcePath.localeCompare(b.sourcePath);
 });
 
-const sections = Object.values(
-  pages.reduce((acc, page) => {
+const pagesEn = pages.filter(p => !p.slug.startsWith("zh"));
+const pagesZh = pages.filter(p => p.slug.startsWith("zh"));
+
+const sectionsEn = Object.values(
+  pagesEn.reduce((acc, page) => {
     acc[page.section] ??= { label: page.section, pages: [] };
     acc[page.section].pages.push({
       slug: page.slug,
@@ -138,6 +211,38 @@ const sections = Object.values(
   }, {}),
 );
 
-const output = `/* This file is generated by scripts/generate-content.mjs. */\n\nexport type WikiHeading = { level: number; text: string };\nexport type WikiPage = {\n  slug: string;\n  sourcePath: string;\n  title: string;\n  section: string;\n  markdown: string;\n  excerpt: string;\n  headings: WikiHeading[];\n  readingMinutes: number;\n};\n\nexport const wikiPages = ${JSON.stringify(pages, null, 2)} satisfies WikiPage[];\n\nexport const wikiSections = ${JSON.stringify(sections, null, 2)};\n`;
+const sectionsZh = Object.values(
+  pagesZh.reduce((acc, page) => {
+    acc[page.section] ??= { label: page.section, pages: [] };
+    acc[page.section].pages.push({
+      slug: page.slug,
+      title: page.title,
+      excerpt: page.excerpt,
+      readingMinutes: page.readingMinutes,
+    });
+    return acc;
+  }, {}),
+);
+
+const output = `/* This file is generated by scripts/generate-content.mjs. */
+
+export type WikiHeading = { level: number; text: string };
+export type WikiPage = {
+  slug: string;
+  sourcePath: string;
+  title: string;
+  section: string;
+  markdown: string;
+  excerpt: string;
+  headings: WikiHeading[];
+  readingMinutes: number;
+};
+
+export const wikiPages = ${JSON.stringify(pages, null, 2)} satisfies WikiPage[];
+
+export const wikiSectionsEn = ${JSON.stringify(sectionsEn, null, 2)};
+
+export const wikiSectionsZh = ${JSON.stringify(sectionsZh, null, 2)};
+`;
 
 writeFileSync(path.join(root, "app", "content.generated.ts"), output);

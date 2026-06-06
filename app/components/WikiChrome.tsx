@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useMemo, useState, useEffect, useRef } from "react";
-import { wikiSections } from "../content.generated";
+import { useRouter } from "next/navigation";
+import { wikiSectionsEn, wikiSectionsZh, wikiPages } from "../content.generated";
 import { hrefForSlug, slugifyHeading, getAdjacentPages } from "../lib/wiki";
 
 type WikiChromeProps = {
@@ -24,6 +25,14 @@ const campaignNodes = [
   { label: "Shanghai", top: "38%", left: "86%" },
 ];
 
+const campaignNodeLabelsZh = {
+  "Jintian": "金田",
+  "Yong'an": "永安",
+  "Wuchang": "武昌",
+  "Tianjing (Nanjing)": "天京 (南京)",
+  "Shanghai": "上海",
+};
+
 export function WikiChrome({
   children,
   currentSlug,
@@ -41,6 +50,33 @@ export function WikiChrome({
   const [showScrollTop, setShowScrollTop] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [isCurrentlyDark, setIsCurrentlyDark] = useState(false);
+  const router = useRouter();
+
+  const isZh = currentSlug === "zh" || currentSlug.startsWith("zh/");
+  const sections = isZh ? wikiSectionsZh : wikiSectionsEn;
+
+  // Client-side automatic language detection and redirection
+  useEffect(() => {
+    const preferred = localStorage.getItem("taiping-lang");
+    const browserLang = navigator.language || "";
+    const isChineseBrowser = browserLang.startsWith("zh");
+    
+    const currentPath = window.location.pathname;
+    const isChinesePath = currentPath.startsWith("/wiki/zh/") || currentPath === "/wiki/zh";
+
+    if (preferred === "zh" && !isChinesePath) {
+      const newPath = currentPath === "/" ? "/wiki/zh" : currentPath.replace(/^\/wiki\//, "/wiki/zh/");
+      router.replace(newPath);
+    } else if (preferred === "en" && isChinesePath) {
+      const newPath = currentPath === "/wiki/zh" ? "/" : currentPath.replace(/^\/wiki\/zh\//, "/wiki/");
+      router.replace(newPath);
+    } else if (!preferred) {
+      if (isChineseBrowser && !isChinesePath) {
+        const newPath = currentPath === "/" ? "/wiki/zh" : currentPath.replace(/^\/wiki\//, "/wiki/zh/");
+        router.replace(newPath);
+      }
+    }
+  }, [currentSlug, router]);
 
   // Initialize theme from localStorage
   useEffect(() => {
@@ -136,7 +172,6 @@ export function WikiChrome({
       (entries) => {
         const visible = entries.filter((e) => e.isIntersecting);
         if (visible.length > 0) {
-          // Sort by highest intersection ratio to find best match
           const best = visible.sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
           if (best?.target.id) {
             setActiveHeading(best.target.id);
@@ -157,8 +192,8 @@ export function WikiChrome({
 
   const filteredSections = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return wikiSections;
-    return wikiSections
+    if (!q) return sections;
+    return sections
       .map((group) => ({
         ...group,
         pages: group.pages.filter(
@@ -168,13 +203,53 @@ export function WikiChrome({
         ),
       }))
       .filter((group) => group.pages.length);
-  }, [query]);
+  }, [query, sections]);
 
   const { previous, next } = useMemo(() => getAdjacentPages(currentSlug), [currentSlug]);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  const handleLanguageToggle = () => {
+    const nextLang = isZh ? "en" : "zh";
+    localStorage.setItem("taiping-lang", nextLang);
+
+    const currentPath = window.location.pathname;
+    let targetSlug = "";
+    if (nextLang === "zh") {
+      targetSlug = currentSlug === "" ? "zh" : `zh/${currentSlug}`;
+    } else {
+      targetSlug = currentSlug === "zh" ? "" : currentSlug.replace(/^zh\//, "");
+    }
+
+    const hasTarget = wikiPages.some(page => page.slug === targetSlug);
+
+    let newPath = "/";
+    if (nextLang === "zh") {
+      newPath = currentPath === "/" ? "/wiki/zh" : currentPath.replace(/^\/wiki\//, "/wiki/zh/");
+    } else {
+      newPath = currentPath === "/wiki/zh" ? "/" : currentPath.replace(/^\/wiki\/zh\//, "/wiki/");
+    }
+
+    if (!hasTarget) {
+      newPath = nextLang === "zh" ? "/wiki/zh" : "/";
+    }
+
+    router.push(newPath);
+  };
+
+  const navLinks = isZh
+    ? [
+        { label: "阅读路径", href: "/wiki/zh/00_Start_Here/reading_path" },
+        { label: "年表", href: "/wiki/zh/07_Reference/chronology" },
+        { label: "史料", href: "/wiki/zh/08_Sources_and_Editing/bibliography" },
+      ]
+    : [
+        { label: "Reading Path", href: "/wiki/00_Start_Here/reading_path" },
+        { label: "Chronology", href: "/wiki/07_Reference/chronology" },
+        { label: "Sources", href: "/wiki/08_Sources_and_Editing/bibliography" },
+      ];
 
   return (
     <main className="site-shell">
@@ -184,19 +259,31 @@ export function WikiChrome({
       </div>
 
       <header className="topbar">
-        <Link className="brand" href="/">
+        <Link className="brand" href={isZh ? "/wiki/zh" : "/"}>
           <span className="brand-mark" aria-hidden="true">
-          <span>太平</span>
-          <span>天國</span>
-        </span>
-        <span className="brand-text">
-          <span className="brand-name">Taiping Wiki</span>
-        </span>
+            <span>太平</span>
+            <span>天國</span>
+          </span>
+          <span className="brand-text">
+            <span className="brand-name">{isZh ? "太平天国维基" : "Taiping Wiki"}</span>
+          </span>
         </Link>
         <nav aria-label="Primary">
-          <Link href="/wiki/00_Start_Here/reading_path">Reading Path</Link>
-          <Link href="/wiki/07_Reference/chronology">Chronology</Link>
-          <Link href="/wiki/08_Sources_and_Editing/bibliography">Sources</Link>
+          {navLinks.map((link) => (
+            <Link href={link.href} key={link.href}>
+              {link.label}
+            </Link>
+          ))}
+
+          {/* Language Toggle */}
+          <button
+            className="lang-toggle"
+            onClick={handleLanguageToggle}
+            aria-label={isZh ? "Switch to English" : "切换至中文"}
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span>{isZh ? "EN" : "中文"}</span>
+          </button>
           
           {/* Theme Slider Toggle */}
           <button
@@ -216,7 +303,7 @@ export function WikiChrome({
               className="hero-map-node"
               key={node.label}
               style={{ top: node.top, left: node.left }}
-              data-label={node.label}
+              data-label={isZh ? (campaignNodeLabelsZh[node.label as keyof typeof campaignNodeLabelsZh] || node.label) : node.label}
             />
           ))}
         </div>
@@ -226,9 +313,9 @@ export function WikiChrome({
             <span>{section}</span>
           </div>
           <h1>{title}</h1>
-          <p>{excerpt || "A reader-facing archive of the Taiping Rebellion, its state-building experiment, war, sources, and contested memory."}</p>
+          <p>{excerpt || (isZh ? "太平天国运动、起义起源与宗教、国家建设实验、战役、史料和争议历史记忆的学术维基。" : "A reader-facing archive of the Taiping Rebellion, its state-building experiment, war, sources, and contested memory.")}</p>
           <div className="hero-meta">
-            <span>{readingMinutes} min</span>
+            <span>{readingMinutes} {isZh ? "分钟" : "min"}</span>
           </div>
         </div>
       </section>
@@ -236,12 +323,12 @@ export function WikiChrome({
       <div className="wiki-layout">
         <aside className="left-rail" aria-label="Wiki navigation">
           <label className="search-box">
-            <span>Search</span>
+            <span>{isZh ? "搜索" : "Search"}</span>
             <input
               ref={searchInputRef}
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search the wiki (Press '/' to focus)"
+              placeholder={isZh ? "搜索维基 (按 '/' 键聚焦)" : "Search the wiki (Press '/' to focus)"}
             />
           </label>
           <div className="nav-groups">
@@ -261,7 +348,7 @@ export function WikiChrome({
             ))}
             {filteredSections.length === 0 && (
               <div style={{ padding: "16px", textAlign: "center", color: "var(--fg-muted)" }}>
-                No results found.
+                {isZh ? "未找到结果。" : "No results found."}
               </div>
             )}
           </div>
@@ -275,7 +362,7 @@ export function WikiChrome({
             <nav className="article-nav-footer" aria-label="Adjacent articles">
               {previous ? (
                 <Link className="article-nav-link prev-link" href={hrefForSlug(previous.slug)}>
-                  <span className="nav-label">← Previous</span>
+                  <span className="nav-label">{isZh ? "← 上一页" : "← Previous"}</span>
                   <span className="nav-title">{previous.title}</span>
                 </Link>
               ) : (
@@ -283,7 +370,7 @@ export function WikiChrome({
               )}
               {next ? (
                 <Link className="article-nav-link next-link" href={hrefForSlug(next.slug)}>
-                  <span className="nav-label">Next →</span>
+                  <span className="nav-label">{isZh ? "下一页 →" : "Next →"}</span>
                   <span className="nav-title">{next.title}</span>
                 </Link>
               ) : (
@@ -296,8 +383,8 @@ export function WikiChrome({
         <aside className="right-rail" aria-label="Table of contents">
           <div className="toc-card">
             <div className="toc-title">
-            <span>Contents</span>
-          </div>
+              <span>{isZh ? "目录" : "Contents"}</span>
+            </div>
             {headings.length ? (
               headings.slice(0, 18).map((heading, index) => {
                 const slug = slugifyHeading(heading.text);
@@ -313,7 +400,7 @@ export function WikiChrome({
                 );
               })
             ) : (
-              <p>No chapter headings on this page.</p>
+              <p>{isZh ? "此页面无章节标题。" : "No chapter headings on this page."}</p>
             )}
           </div>
         </aside>
@@ -341,4 +428,3 @@ export function WikiChrome({
     </main>
   );
 }
-

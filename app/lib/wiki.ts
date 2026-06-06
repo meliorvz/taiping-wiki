@@ -11,10 +11,15 @@ export function getPage(slug?: string[] | string) {
 }
 
 export function getAdjacentPages(currentSlug: string) {
-  const index = wikiPages.findIndex((page) => page.slug === currentSlug);
+  const isZh = currentSlug === "zh" || currentSlug.startsWith("zh/");
+  const filteredPages = wikiPages.filter((page) => {
+    const pageIsZh = page.slug === "zh" || page.slug.startsWith("zh/");
+    return isZh === pageIsZh;
+  });
+  const index = filteredPages.findIndex((page) => page.slug === currentSlug);
   return {
-    previous: index > 0 ? wikiPages[index - 1] : null,
-    next: index >= 0 && index < wikiPages.length - 1 ? wikiPages[index + 1] : null,
+    previous: index > 0 ? filteredPages[index - 1] : null,
+    next: index >= 0 && index < filteredPages.length - 1 ? filteredPages[index + 1] : null,
   };
 }
 
@@ -26,7 +31,7 @@ export function slugifyHeading(value: string) {
   return value
     .toLowerCase()
     .normalize("NFKD")
-    .replace(/[^\w\s-]/g, "")
+    .replace(/[^\p{L}\p{N}\s-]/gu, "")
     .trim()
     .replace(/\s+/g, "-");
 }
