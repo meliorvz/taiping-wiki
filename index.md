@@ -8,6 +8,9 @@ The war killed or displaced millions, ruined cities and villages, changed Qing p
 
 ## Read first
 
+- [The Taiping Rebellion in Ten Minutes](00_Start_Here/ten_minute_history.md)
+- [Core Questions](00_Start_Here/core_questions.md)
+- [Religion Primer for Readers](02_Origins_and_Religion/religion_primer_for_readers.md)
 - [Taiping Rebellion / 太平天国运动](01_Main_Story/taiping_rebellion.md)
 - [Origins of the Rebellion](02_Origins_and_Religion/origins.md)
 - [Hong Xiuquan / 洪秀全](02_Origins_and_Religion/hong_xiuquan.md)
@@ -36,6 +39,7 @@ The war killed or displaced millions, ruined cities and villages, changed Qing p
 - [Hong Rengan / 洪仁玕](02_Origins_and_Religion/hong_rengan.md)
 - [God Worshipping Society / 拜上帝会](02_Origins_and_Religion/god_worshipping_society.md)
 - [Taiping Ideology and Religion](02_Origins_and_Religion/taiping_ideology_and_religion.md)
+- [Religion Primer for Readers](02_Origins_and_Religion/religion_primer_for_readers.md)
 - [Hakka Background / 客家背景](02_Origins_and_Religion/hakka_background.md)
 - [Missionary Sources / 传教士来源](02_Origins_and_Religion/missionary_sources.md)
 
@@ -52,6 +56,9 @@ The war killed or displaced millions, ruined cities and villages, changed Qing p
 - [Taiping Law and Discipline / 太平天国的法律与纪律](03_Taiping_State/taiping_law_and_discipline.md)
 - [Taiping Calendar](03_Taiping_State/taiping_calendar.md)
 - [Tianjing: Urban Geography](03_Taiping_State/tianjing_urban_geography.md)
+- [Life under Taiping Rule](03_Taiping_State/life_under_taiping_rule.md)
+- [Food Supply and Logistics](03_Taiping_State/food_supply_and_logistics.md)
+- [Print Culture and Official Books](03_Taiping_State/print_culture_and_official_books.md)
 
 ## War and Campaigns
 
@@ -97,6 +104,9 @@ The war killed or displaced millions, ruined cities and villages, changed Qing p
 - [Thematic Essay: Religious Language](06_Aftermath_and_Memory/thematic_essay_religious_language.md)
 - [Thematic Essay: Why Nanjing, Not a State](06_Aftermath_and_Memory/thematic_essay_why_nanjing_not_state.md)
 - [Thematic Essay: Xiang and Huai Power](06_Aftermath_and_Memory/thematic_essay_xiang_huai_power.md)
+- [Ordinary People in the War](06_Aftermath_and_Memory/ordinary_people.md)
+- [Local Memory and Genealogies](06_Aftermath_and_Memory/local_memory_and_genealogies.md)
+- [Why It Matters Today](06_Aftermath_and_Memory/why_it_matters_today.md)
 
 ## Reference
 
