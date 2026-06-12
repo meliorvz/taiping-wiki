@@ -26,7 +26,11 @@ The CCP memory was not simply an academic interpretation; it was a political cla
 
 After Mao's death in 1976, PRC scholarship on the Taiping gradually expanded beyond the peasant-war framework. The 1980s and 1990s saw a "return to sources" in which historians reexamined the documentary record without the requirement to demonstrate progressive class character. Religion, internal factionalism, local impacts, and comparative studies became legitimate topics. The peasant-war interpretation did not disappear — it remains influential in Chinese historiography — but it ceased to be the only permissible framework.
 
-The post-Mao reassessment paralleled broader changes in Chinese intellectual life: the opening to Western scholarship, the revival of archival research, the publication of new source collections, and the growing interest in social and cultural history rather than political-economic history. The Taiping remained politically sensitive — as a movement that had challenged the legitimacy of imperial rule, it touched on questions of state-society relations that were never purely academic — but the range of permissible inquiry expanded significantly.
+The post-Mao reassessment paralleled broader changes in Chinese intellectual life: the opening to Western scholarship, the revival of archival research, the publication of new source collections, and the growing interest in social and cultural history rather than political-economic history. A landmark 1979 national symposium in Nanjing brought together Chinese and foreign scholars for the first major post-Mao reappraisal of Taiping historiography, though the proceedings also reflected the limits of permissible inquiry at the time.[^jstor-1979] The Taiping remained politically sensitive — as a movement that had challenged the legitimacy of imperial rule, it touched on questions of state-society relations that were never purely academic — but the range of permissible inquiry expanded significantly.
+
+## Taiwan, Hong Kong, and overseas memory
+
+Taiwan and Hong Kong materials may frame the Taiping through nationalism, Qing decline, religious history, or Chinese modernity in ways that differ from mainland PRC textbooks. Overseas Chinese memory may connect the Taiping to migration, clan identity, Christianity, or revolutionary ancestry. When citing textbooks or educational materials about the Taiping, specify the country or region, publisher, edition year, grade level, and chapter — do not write "Chinese textbooks say" as though there were a single national narrative.
 
 ## Museum and textbook treatment
 
@@ -76,3 +80,4 @@ A related debate concerns the relationship between academic historiography and p
 [^reilly]: Thomas H. Reilly, *The Taiping Heavenly Kingdom: Rebellion and the Blasphemy of Empire* (University of Washington Press, 2004).
 [^wilson]: Andrew Wilson, *The Ever-Victorious Army: A History of the Chinese Campaign under Lt. Col. C. G. Gordon* (Blackwood, 1868).
 [^lindley]: Augustus Lindley (Lin-Le), *Ti-ping Tien-kwoh: The History of the Ti-Ping Revolution* (1866).
+[^jstor-1979]: 1979 Nanjing national symposium on Taiping historiography, see JSTOR report, https://www.jstor.org/stable/pdf/2757659.pdf. Documents the post-Mao historiographical reappraisal.
